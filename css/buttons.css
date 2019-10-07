@@ -1,0 +1,170 @@
+.btn{
+  width: 130px;
+  height: 30px;
+  margin-top: 3px;
+  font-size: 18px;
+  font-family: tahoma;
+  transition: 0.4s;
+  outline:none;
+  outline-style: none;
+  outline-color: black;
+}
+.btn.login{
+  color: #06855E;
+  background-color: white;
+  border-radius: 5px;
+  border:none;
+  margin-right: 12px;
+  transition: 0.1s 0.5s;
+  outline-color: black;
+  margin-bottom: 5px;
+}
+.btn.login:hover{
+  background-color: #ededed;
+  color: #06855E;
+-webkit-box-shadow: 0px -1px 24px 0px rgba(170,255,214,1);
+-moz-box-shadow: 0px -1px 24px 0px rgba(170,255,214,1);
+box-shadow: 0px -1px 24px 0px rgba(170,255,214,1);
+  transition: 0.2s
+}
+.btn.login:active{
+  background-color: #AAFFD6;
+  transition: 0.1s;
+  outline: none;
+  outline-style: none;
+  outline-color: black;
+}
+.btn.register{
+  color: #06855E;
+  background-color: white;
+  border-radius: 5px;
+  border:none;
+  transition: 0.1s 0.5s
+}
+.btn.register:hover{
+  background-color: #ededed;
+  color: #06855E;
+-webkit-box-shadow: 0px -1px 24px 0px rgba(170,255,214,1);
+-moz-box-shadow: 0px -1px 24px 0px rgba(170,255,214,1);
+box-shadow: 0px -1px 24px 0px rgba(170,255,214,1);
+  transition: 0.2s
+}
+.btn.register:active{
+  background-color: #AAFFD6;
+  transition: 0.1s;
+}
+.btn.carrito{
+  color: #06855E;
+  background-color: white;
+  border-radius: 5px;
+  border:none;
+  margin-right: 12px;
+  transition: 0.1s 0.5s;
+  outline-color: black;
+  height: 65px;
+  float: right;
+}
+#img-carrito{
+    background-image: url("../img/header/carrito.png");
+    background-position: center;
+    background-size: 10px;
+}
+.btn.carrito:hover{
+  background-color: #ededed;
+  color: #06855E;
+-webkit-box-shadow: 0px -1px 24px 0px rgba(170,255,214,1);
+-moz-box-shadow: 0px -1px 24px 0px rgba(170,255,214,1);
+box-shadow: 0px -1px 24px 0px rgba(170,255,214,1);
+  transition: 0.2s
+}
+.btn.carrito:active{
+  background-color: #AAFFD6;
+  transition: 0.1s;
+  outline: none;
+  outline-style: none;
+  outline-color: black;
+}
+.btn.addDireccion{
+  color: #06855E;
+  background-color: white;
+  border-radius: 5px;
+  border:none;
+  margin-right: 12px;
+  transition: 0.1s 0.5s;
+  outline-color: black;
+  margin-bottom: 5px;
+  width: 200px;
+  border: 1px solid gray;
+}
+.btn.addDireccion:hover{
+  background-color: #ededed;
+  color: #06855E;
+-webkit-box-shadow: 0px -1px 24px 0px rgba(170,255,214,1);
+-moz-box-shadow: 0px -1px 24px 0px rgba(170,255,214,1);
+box-shadow: 0px -1px 24px 0px rgba(170,255,214,1);
+  transition: 0.2s
+}
+.btn.addDireccion:active{
+  background-color: #AAFFD6;
+  transition: 0.1s;
+  outline: none;
+  outline-style: none;
+  outline-color: black;
+}
+.btn.pagar{
+  color: #06855E;
+  background-color: white;
+  border-radius: 5px;
+  border:none;
+  margin-right: 12px;
+  transition: 0.1s 0.5s;
+  outline-color: black;
+  margin-bottom: 5px;
+  width: 120px;
+  border: 1px solid gray;
+  margin-right: 20px;
+  
+}
+.btn.pagar:hover{
+  background-color: #ededed;
+  color: #06855E;
+-webkit-box-shadow: 0px -1px 24px 0px rgba(170,255,214,1);
+-moz-box-shadow: 0px -1px 24px 0px rgba(170,255,214,1);
+box-shadow: 0px -1px 24px 0px rgba(170,255,214,1);
+  transition: 0.2s
+}
+.btn.pagar:active{
+  background-color: #AAFFD6;
+  transition: 0.1s;
+  outline: none;
+  outline-style: none;
+  outline-color: black;
+}
+.btn.cancelarPedido{
+  color: #06855E;
+  background-color: white;
+  border-radius: 5px;
+  border:none;
+  margin-right: 12px;
+  transition: 0.1s 0.5s;
+  outline-color: black;
+  margin-bottom: 5px;
+  width: 160px;
+  border: 1px solid gray;
+  margin-right: -10px;
+}
+.btn.cancelarPedido:hover{
+  background-color: #ededed;
+  color: #06855E;
+-webkit-box-shadow: 0px -1px 24px 0px rgba(170,255,214,1);
+-moz-box-shadow: 0px -1px 24px 0px rgba(170,255,214,1);
+box-shadow: 0px -1px 24px 0px rgba(170,255,214,1);
+  transition: 0.2s
+}
+.btn.cancelarPedido:active{
+  background-color: #AAFFD6;
+  transition: 0.1s;
+  outline: none;
+  outline-style: none;
+  outline-color: black;
+}

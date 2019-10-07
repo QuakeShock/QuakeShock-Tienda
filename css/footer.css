@@ -1,0 +1,95 @@
+#footer{
+    width: 100%;
+    height: 200px;
+    border: 2px solid lightgray;
+    background-color: #EEEEEE;
+    position: relative;
+}
+#footer-in{
+    width: 80%;
+    height: 180px;
+    margin: auto;
+    border: 1px solid red;
+    margin-top: 10px;
+}
+#logo-footer{
+    width: 230px;
+    height: 140px;
+    border: 1px solid cyan;
+    background-image: url("../img/qslogo_full.png");
+    background-size: 230px;
+    float: left;
+    margin-right: 150px;
+    margin-top: 15px;
+}
+.footer-text{
+    float: left;
+    font-family: Calibri;
+    font-size: 18px;
+    line-height: 25px;
+}
+#social-box{
+    width: 300px;
+    height: 150px;
+    float: left;
+    border: 2px solid lightgray;
+    background-color: #FFFFFF;
+    margin-top: 0px;
+    border-radius: 20px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+#social-text-container{
+    width: 270px;
+    height: 20px;
+    border: 1px solid red;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+#fb_icon{
+    border: 1px solid red;
+    float: left;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+#ig_icon{
+    border: 1px solid red;
+    float: left;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#envios-box{
+    width: 300px;
+    height: 150px;
+    float: left;
+    border: 2px solid lightgray;
+    background-color: #FFFFFF;
+    margin-top: 0px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+#envios-img{
+    width: 120px;
+    height: 110px;
+    float: left;
+    border: 1px solid lightgray;
+    background-image: url("../img/icons/envios.png");
+    background-position: center;
+    background-size: contain;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#envios-text-container-1{
+    width: 145px;
+    height: 30px;
+    float: left;
+    border: 1px solid lightgray;
+    margin-top: 20px;
+}
+#envios-text-container-2{
+    width: 145px;
+    height: 80px;
+    float: left;
+    border: 1px solid lightgray;
+    margin-top: 0px;
+}

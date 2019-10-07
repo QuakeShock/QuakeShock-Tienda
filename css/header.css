@@ -1,0 +1,159 @@
+.body{
+  margin: 0px;
+  padding: 0px;
+}
+.toolbar{
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  background-image: linear-gradient(#2FA581, #008059);
+}
+#logo{
+  width: 75px;
+  height: 90px;
+  background-image: url("../img/header/QS.png");
+  background-position: center;  
+  background-size: 75px 90px;
+  background-repeat: no-repeat; 
+  float: left;
+  border: 1px solid blue;
+  margin-left: 150px;
+  margin-top: 2px;
+}
+#main-menu{
+  width: 1100px;
+  height: 100px;
+  float: right;
+  border: 1px solid white;
+  margin-top: 0px;
+  margin-right: 130px;
+}
+#home{
+  width: 160px;
+  height: 55px;
+  float: left;
+  transition: 1s;
+  background-color: #018059;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+#home-in{
+  width: 160px;
+  height: 15px;
+  background-color: white;
+  float: left;
+  margin-top: 20px;
+}
+
+#area-buscador{
+    width: 720px;
+    height: 80px;
+    border: 1px solid red;
+    margin-left: -50px;
+    position: absolute;
+    top: 10px;
+    right: 500px;
+}
+.contenedor-buscar{
+    width: 700px;
+    height: 35px;
+    border: 1px solid white;
+}
+#icono-buscar{
+    width: 28px;
+    height: 25px;
+    background-image: url("../img/icons/buscar.png");
+    background-position: center;
+    background-size: 30px;
+    float: left;
+    border: 1px solid red;
+    position: absolute;
+}
+.txt-busqueda{
+    width: 700px;
+    height: 25px;
+    border-radius: 8px;
+    border: none;
+    padding-right: 10px;
+    float: left;
+    border: 1px solid gray;
+    position: relative;
+}
+.txt-busqueda::placeholder {
+    padding-left:  35px;
+}
+#btn-filtros{
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    margin-top: 5px;
+}
+#area-usuario{
+  border: 1px solid red;
+  float: right;
+  margin-top: -80px;
+  width: 320px;
+  height: 70px;
+  position: absolute;
+  left: 1050px;
+  top: 90px;
+}
+#btn-iniciar-sesion{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 0px;
+}
+#btn-registrarse{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+#btn-carrito{
+    width: 100px;
+    height: 80px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+#user-in{
+  width: 60px;
+  height: 60px;
+  float:right;
+  margin-left: 30px;
+  transition: 1s;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius:100px;
+  border-bottom-right-radius: 100px;
+  border: 2px solid white;
+}
+#menu-title-home{
+  font-family: 'exo-regular';
+  font-size: 28px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: white;
+  position: relative;
+  left: 40px;
+  top: 15px;
+}
+#mid{
+  width: 100%;
+  height: 500px;
+  border: 0px solid purple;
+}
+#mid-2{
+  width: 100%;
+  height: 800px;
+  border: 0px solid green;
+}
