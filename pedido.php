@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/menubar.css">
   <link rel="stylesheet" href="css/footer.css">
-  <link rel="stylesheet" href="css/login_register.css">
+  <link rel="stylesheet" href="css/login_registro.css">
 <link rel="stylesheet" href="css/pedido.css">
   <link rel="stylesheet" href="css/buttons.css">
   <script src="js/jquery.js"> </script>

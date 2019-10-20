@@ -10,6 +10,7 @@
   left: 0;
   opacity: 1;
   background-image: linear-gradient(#2FA581, #008059);
+  border-bottom: 5px solid white;
 }
 #logo{
   width: 75px;

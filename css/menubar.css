@@ -4,26 +4,27 @@
 
 }
 .menubar{
-  width: 80%;
-  height: 100px;
+  width: 85%;
+  height: 120px;
   top: 0;
   left: 0;
   opacity: 1;
   background-color: #AAFFD6;
   border: 1px solid red;
-  margin-top: 100px;
   margin: auto;
+  margin-top: 15px;
+
 }
 #menubar-in{
   width: 100%;
-  height: 50px;
+  height: 70px;
   border: 1px solid white;
   background-color: #AAFFD6;
 
 }
 #catalogo-menu{
   width: 250px;
-  height: 55px;
+  height: 49px;
   float: left;
   transition: 1s;
   background-color: #018059;
@@ -38,14 +39,14 @@
 }
 #catalogo-menu-in{
   width: 250px;
-  height: 15px;
+  height: 5px;
   background-color: white;
   float: left;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 #categorias-menu{
   width: 250px;
-  height: 55px;
+  height: 49px;
   float: left;
   transition: 1s;
   background-color: #018059;
@@ -58,14 +59,14 @@
 }
 #categorias-menu-in{
   width: 250px;
-  height: 15px;
+  height: 5px;
   background-color: white;
   float: left;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 #contacto-menu{
   width: 250px;
-  height: 55px;
+  height: 49px;
   float: left;
   transition: 1s;
   background-color: #018059;
@@ -78,14 +79,14 @@
 }
 #contacto-menu-in{
   width: 250px;
-  height: 15px;
+  height: 5px;
   background-color: white;
   float: left;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 #tyc-menu{
   width: 330px;
-  height: 55px;
+  height: 49px;
   float: left;
   transition: 1s;
   background-color: #018059;
@@ -97,10 +98,10 @@
 }
 #tyc-menu-in{
   width: 330px;
-  height: 15px;
+  height: 5px;
   background-color: white;
   float: left;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .menubar-text{
     width: 100%;
@@ -109,6 +110,7 @@
     font-size: 25px;
     float: left;
     margin-top: 10px;
+    text-decoration: none;
 }
 .menubar-text.tyc{
     width: 100%;

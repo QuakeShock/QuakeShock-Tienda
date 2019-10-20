@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/menubar.css">
   <link rel="stylesheet" href="css/footer.css">
-  <link rel="stylesheet" href="css/login_register.css">
+  <link rel="stylesheet" href="css/login_registro.css">
 
   <link rel="stylesheet" href="css/buttons.css">
   <script src="js/parsley.js"></script>
@@ -27,11 +27,11 @@
   
   <div id="central">
     
-    <?php include_once('views/layout/login.php');?>
+    <?php include_once('views/usuario/login.php');?>
     
     <?php include_once('views/layout/header.php');?>
       
-    <?php include_once('views/layout/register.php');?>
+    <?php include_once('views/usuario/registro.php');?>
      
       <div id="central-menu">
           <?php include_once('views/layout/menubar.php');?>

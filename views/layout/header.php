@@ -8,7 +8,7 @@ session_start();
         <div id="logo"></div>
             <div id="main-menu">
                 <div id="area-buscador">
-                  <div class="contenedor-buscar">
+                  <div class="conten-buscar">
                     <form action="/funciones/buscar_producto.php">
                         <input type="text" placeholder="Buscar..." name="buscar" class="txt-busqueda">
                         <div id="icono-buscar"></div>
@@ -32,13 +32,13 @@ session_start();
                         echo "no logueado"; ?>
                         <button type="button" name="btnLogin" class="btn login">Iniciar Sesión</button>
                         <button type="button" name="btnCarrito" class="btn carrito"><img src="img/header/carrito.png" height="45px" width="80px"></button>
-                        <button type="button" name="btnRegister" class="btn register">Registrarse</button>
+                        <button type="button" name="btnRegister" class="btn registro">Registrarse</button>
                         
                     <?php endif;
                 else:?>
                     <button type="button" name="btnLogin" class="btn login">Iniciar Sesión</button>
                     <button type="button" name="btnCarrito" class="btn carrito"><img src="img/header/carrito.png" height="45px" width="80px"></button>
-                    <button type="button" name="btnRegister" class="btn register">Registrarse</button>
+                    <button type="button" name="btnRegister" class="btn registro">Registrarse</button>
                     
                 <?php
                 endif; 
