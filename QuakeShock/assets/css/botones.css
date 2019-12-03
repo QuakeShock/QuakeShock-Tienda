@@ -1,0 +1,714 @@
+.btn{
+    width: 130px;
+    height: 30px;
+    margin-top: 3px;
+    font-size: 18px;
+    font-family: tahoma;
+    transition: 0.1s;
+    outline:none;
+    outline-style: none;
+    outline-color: black;
+}
+.btn.login{
+    color: #06855E;
+    background-color: white;
+    border-radius: 5px;
+    border:none;
+    margin-right: 12px;
+    transition: 0.1s 0.1s;
+    outline-color: black;
+    margin-bottom: 5px;
+}
+.btn.login:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.login:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+    outline: none;
+    outline-style: none;
+    outline-color: black;
+}
+.btn.registro{
+    color: #06855E;
+    background-color: white;
+    border-radius: 5px;
+    border:none;
+    transition: 0.1s 0.1s
+}
+.btn.registro:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.registro:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+}
+.btn.carrito{
+    color: #06855E;
+    background-color: white;
+    border-radius: 5px;
+    border:none;
+    margin-right: 12px;
+    transition: 0.1s 0.1s;
+    outline-color: black;
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+#btn-carrito-img{
+    width: 48px;
+    height: 50px;
+    margin-left: -4px;
+}
+.btn.carrito:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.2s
+}
+.btn.carrito:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+    outline: none;
+    outline-style: none;
+    outline-color: black;
+}
+/*----------PERFIL--------*/
+
+
+/*---------BOTON MI PERFIL HEADER-----------*/
+.btn.mi-perfil{
+    height: 23px;
+
+    color: #06855E;
+    background-color: white;
+    border-radius: 5px;
+    border:none;
+
+    transition: 0.1s 0.1s;
+    outline-color: black;
+
+    float: left;
+    margin-left: 5px;
+    margin-right: 12px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+.btn.mi-perfil:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.mi-perfil:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+    outline: none;
+    outline-style: none;
+    outline-color: black;
+}
+
+/*---------BOTON MIS PEDIDOS HEADER-----------*/
+.btn.mis-pedidos{
+    height: 23px;
+
+    color: #06855E;
+    background-color: white;
+    border-radius: 5px;
+    border:none;
+
+    transition: 0.1s 0.1s;
+    outline-color: black;
+
+    float: left;
+    margin-left: -142px;
+    margin-bottom: 0px;
+    margin-right: 12px;
+    margin-top: 12px;
+}
+.btn.mis-pedidos:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.mis-pedidos:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+    outline: none;
+    outline-style: none;
+    outline-color: black;
+}
+/*---------BOTON CARRITO PERFIL HEADER-----------*/
+.btn.carrito-perfil{
+    width: 60px;
+    height: 50px;
+    color: #06855E;
+    border-radius: 5px;
+    border:none;
+    margin-right: 110px;
+    transition: 0.1s 0.1s;
+    outline-color: black;
+    margin-top: -15px;
+    float: right;
+    background-color: transparent;
+}
+.btn.carrito-perfil:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.carrito-perfil:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+    outline: none;
+    outline-style: none;
+    outline-color: black;
+}
+#btn-carrito-perfil-img{
+    width: 40px;
+    height: 40px;
+    margin-left: 0px;
+    float: left;
+}
+
+/*---------BOTON FAVORITOS PERFIL HEADER-----------*/
+.btn.favoritos-perfil{
+    width: 60px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 5px;
+    border:none;
+
+    transition: 0.1s 0.1s;
+    outline-color: black;
+    float: right;
+    margin-right: 40px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    margin-top: -50px;
+}
+.btn.favoritos-perfil:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.favoritos-perfil:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+    outline: none;
+    outline-style: none;
+    outline-color: black;
+}
+#btn-favoritos-perfil-img{
+    width: 60px;
+    height: 70px;
+    margin-left: -3px;
+    margin-top: -5px;
+    float: left
+}
+
+/*---------BOTON CERRAR SESIÓN-----------*/
+.btn.logout{
+    color: #06855E;
+    background-color: white;
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    border:1px solid green;
+    transition: 0.1s 0.1s;
+}
+.btn.logout:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.logout:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+}
+#btn-logout-img{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    float: left;
+}
+#btn-logout-text{
+    float: right;
+    margin-top: 2px;
+    margin-right: 7px;
+}
+/*---------BOTON GESTIONAR DIRECCIONES-----------*/
+.btn.direcciones{
+    color: #06855E;
+    background-color: white;
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    border:1px solid green;
+    transition: 0.1s 0.1s;
+}
+.btn.direcciones:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.direciones:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+}
+#btn-direcciones-img{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    float: left;
+    margin-top: 5px;
+}
+#btn-direcciones-text{
+    float: right;
+    margin-top: -40px;
+    margin-right: 7px;
+    margin-left: 25px;
+}
+/*---------BOTON MODIFICAR PERFIL-----------*/
+.btn.modificar-perfil{
+    color: #06855E;
+    background-color: white;
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    border:1px solid green;
+    transition: 0.1s 0.1s;
+}
+.btn.modificar-perfil:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.2s
+}
+.btn.modificar-perfil:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+}
+#btn-modificar-perfil-img{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    float: left;
+    margin-top: 5px;
+}
+#btn-modificar-perfil-text{
+    float: right;
+    margin-top: -40px;
+    margin-right: 7px;
+    margin-left: 35px;
+}
+/*---------BOTON RECUPERAR CLAVE-----------*/
+.btn.recuperar-clave{
+    color: #06855E;
+    background-color: white;
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    border:1px solid green;
+    transition: 0.1s 0.1s;
+}
+.btn.recuperar-clave:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.recuperar-clave:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+}
+#btn-recuperar-clave-img{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    float: left;
+    margin-top: 5px;
+}
+#btn-recuperar-clave-text{
+    float: right;
+    margin-top: -40px;
+    margin-right: 7px;
+    margin-left: 25px;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------BOTONES DE ADMINISTRADOR-----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------GESTIONAR USUARIOS-----------*/
+.btn.gestionar-usuarios{
+    color: #06855E;
+    background-color: white;
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    border:1px solid green;
+    transition: 0.1s 0.1s;
+}
+.btn.gestionar-usuarios:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.gestionar-usuarios:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+}
+#btn-gestionar-usuarios-img{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    float: left;
+    margin-top: 5px;
+}
+#btn-gestionar-usuarios-text{
+    float: right;
+    margin-top: -40px;
+    margin-right: 7px;
+    margin-left: 25px;
+}
+
+/*---------GESTIONAR DESTACADOS-----------*/
+
+.btn.gestionar-destacados{
+    color: #06855E;
+    background-color: white;
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    border:1px solid green;
+    transition: 0.1s 0.1s;
+}
+.btn.gestionar-destacados:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.gestionar-destacados:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+}
+#btn-gestionar-destacados-img{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    float: left;
+    margin-top: 5px;
+}
+#btn-gestionar-destacados-text{
+    float: right;
+    margin-top: -40px;
+    margin-right: 7px;
+    margin-left: 25px;
+}
+
+/*---------GESTION TYC-----------*/
+
+.btn.gestionar-tyc{
+    color: #06855E;
+    background-color: white;
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    border:1px solid green;
+    transition: 0.1s 0.1s;
+}
+.btn.gestionar-tyc:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.gestionar-tyc:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+}
+#btn-gestionar-tyc-img{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    float: left;
+    margin-top: 5px;
+}
+#btn-gestionar-tyc-text{
+    float: right;
+    margin-top: -40px;
+    margin-right: 7px;
+    margin-left: 30px;
+}
+
+/*---------CREAR USUARIO-----------*/
+
+.btn.crear-usuario{
+    color: #06855E;
+    background-color: white;
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    border:1px solid green;
+    transition: 0.1s 0.1s;
+}
+.btn.crear-usuario:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.crear-usuario:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+}
+#btn-crear-usuario-img{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    float: left;
+    margin-top: 5px;
+}
+#btn-crear-usuario-text{
+    float: right;
+    margin-top: -40px;
+    margin-right: 7px;
+    margin-left: 25px;
+}
+
+/*---------ELIMINAR USUARIO-----------*/
+
+.btn.eliminar-usuario{
+    color: #06855E;
+    background-color: white;
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    border:1px solid green;
+    transition: 0.1s 0.1s;
+}
+.btn.eliminar-usuario:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.eliminar-usuario:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+}
+#btn-eliminar-usuario-img{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    float: left;
+    margin-top: 5px;
+}
+#btn-eliminar-usuario-text{
+    float: right;
+    margin-top: -40px;
+    margin-right: 7px;
+    margin-left: 25px;
+}
+
+/*---------BUSCAR USUARIO-----------*/
+
+.btn.buscar-usuario{
+    color: #06855E;
+    background-color: white;
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    border:1px solid green;
+    transition: 0.1s 0.1s;
+}
+.btn.buscar-usuario:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.buscar-usuario:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+}
+#btn-buscar-usuario-img{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    float: left;
+    margin-top: 5px;
+}
+#btn-buscar-usuario-text{
+    float: right;
+    margin-top: -40px;
+    margin-right: 7px;
+    margin-left: 25px;
+}
+
+/*---------MODIFICAR USUARIO-----------*/
+
+.btn.modificar-usuario{
+    color: #06855E;
+    background-color: white;
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    border:1px solid green;
+    transition: 0.1s 0.1s;
+}
+.btn.modificar-usuario:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.modificar-usuario:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+}
+#btn-modificar-usuario-img{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    float: left;
+    margin-top: 5px;
+}
+#btn-modificar-usuario-text{
+    float: right;
+    margin-top: -40px;
+    margin-right: 7px;
+    margin-left: 25px;
+}
+
+/*---------VER USUARIOS-----------*/
+
+.btn.ver-usuarios{
+    color: #06855E;
+    background-color: white;
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    border:1px solid green;
+    transition: 0.1s 0.1s;
+}
+.btn.ver-usuarios:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.ver-usuarios:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+}
+#btn-ver-usuarios-img{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    float: left;
+    margin-top: 5px;
+}
+#btn-ver-usuarios-text{
+    float: right;
+    margin-top: -40px;
+    margin-right: 7px;
+    margin-left: 25px;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------BOTONES DE EMPLEADO-----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------GESTIONAR PRODUCTOS-----------------------------------------------------------------------*/
+
+.btn.gestionar-productos{
+    color: #06855E;
+    background-color: white;
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    border:1px solid green;
+    transition: 0.1s 0.1s;
+}
+.btn.gestionar-productos:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.gestionar-productos:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+}
+#btn-gestionar-productos-img{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    float: left;
+    margin-top: 5px;
+}
+#btn-ver-usuarios-text{
+    float: right;
+    margin-top: -40px;
+    margin-right: 7px;
+    margin-left: 25px;
+}

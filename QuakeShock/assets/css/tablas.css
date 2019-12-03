@@ -1,0 +1,35 @@
+table.usuarios {
+  font-family: Verdana, Geneva, sans-serif;
+  border: 3px solid #FFFFFF;
+  background-color: #FFFFFF;
+  text-align: left;
+  margin: auto;
+  margin-top: 0px;
+  border-radius: 5px;
+}
+table.usuarios td, table.usuarios th {
+  padding: 4px 4px;
+}
+table.usuarios tbody td {
+  font-size: 13px;
+  color: #000000;
+  border-radius: 5px;
+}
+table.usuarios tr:nth-child(even) {
+  background: #57EBA1;
+}
+table.usuarios thead {
+  background: #57EBA1;
+   border-radius: 5px;
+}
+table.usuarios thead th {
+  font-size: 17px;
+  font-weight: bold;
+  color: #19956F;
+  text-align: left;
+  border-radius: 2px;
+}
+table.usuarios tfoot td {
+  font-size: 16px;
+}   
+

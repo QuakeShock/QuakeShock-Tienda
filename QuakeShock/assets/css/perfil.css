@@ -1,0 +1,42 @@
+/*--------------------------- Perfil-------------------------------------*/
+
+
+
+/*--------------------------- Formulario-------------------------------------*/
+
+#conten-perfil{
+  width: 1215px;
+  height: 800px;
+  border: 1px solid black;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: auto;
+}
+#conten-datos-perfil{
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 20px
+}
+.lbl-perfil{
+  font-family: Calibri;
+  font-size: 25px;
+  color: #666666;
+  margin-top: 8px;
+}
+
+#linea{
+  width: 800px;
+  border: 1.2px solid #666666;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#conten-opciones-perfil{
+  width: 700px;
+  margin-left: 260px;
+  margin-top: -10px;
+}

@@ -1,0 +1,32 @@
+
+#contenido_direccion{
+  width: 1215px;
+  height: 600px;
+  border: 1px solid black;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+#añadir_direccion{
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+#añadir_direccion a{
+  width: 180px;
+}
+
+#añadir_direccion span{
+  margin-right: 20px;
+}
+
+#datos_direccion{
+  width: 900px;
+  height: 250px;
+  border: 1px solid black;
+  margin: auto;
+  border-radius: 15px;
+  margin-top: 50px;
+}

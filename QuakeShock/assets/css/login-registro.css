@@ -1,0 +1,741 @@
+
+
+
+
+/* VENTANA DE LOGIN */
+.lightbox-login{
+  width: 600px;
+  height: 450px;
+  background-color: white;
+  top: 30px;
+  left: 460px;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  border-radius: 20px;
+  transition: 1s;
+  margin-top: 100px;
+}
+.conten-login-text{
+  width: 300px;
+  height: 70px;
+  margin: auto;
+  border: 2px solid blue;
+  margin-top: 30px;
+}
+.login-text{
+  font-family: Alba;
+  font-size: 35px;
+  color: #008065;
+  margin: auto;
+  border: 1px solid black;
+}
+.conten-login-form{
+  width: 500px;
+  height: 300px;
+  border: 1px solid cyan;
+  margin: auto;
+}
+.conten-login-correo{
+  width: 500px;
+  height: 60px;
+  border: 1px solid red;
+}
+.conten-login-clave{
+  width: 500px;
+  height: 60px;
+  border: 1px solid red;
+}
+.lbl-login{
+  font-family: Calibri;
+  font-size: 25px;
+  color: #666666;
+  margin-top: 8px;
+}
+#txtCorreoLogin{
+  width: 250px;
+  height: 30px;
+  font-family: Calibri;
+  font-size: 25px;
+  color: #666666;
+  margin-top: 8px;
+  margin-left: 100px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+}
+#txtClaveLogin{
+  width: 250px;
+  height: 30px;
+  font-family: Calibri;
+  font-size: 25px;
+  color: #666666;
+  margin-top: 8px;
+  margin-left: 56px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+}
+.btn-login{
+  width: 180px;
+  height: 60px;
+  font-family: Calibri;
+  font-size: 25px;
+  float: right;
+  margin-right: 65px;
+  margin-top: 25px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid GRAY;
+  background-color: white;
+  color: #008065;
+}
+.btn-login:hover{
+
+  color: #02130D;
+-webkit-box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
+-moz-box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
+box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
+
+  transition: 0.2s
+}
+.conten-no-registrado{
+  width: 500px;
+  height: 40px;
+  border: 1px solid blue;
+  margin-top: 150px;
+}
+.no-registrado-text{
+  font-family: Calibri;
+  font-size: 20px;
+  color: #666666;
+  float: left;
+  margin: auto;
+  margin-left: 70px;
+}
+.no-registrado-link{
+  font-family: Calibri;
+  font-size: 20px;
+  color: #008065;
+  float: right;
+  margin-right: 90px;
+  margin-top: -1px;
+}
+.no-registrado-link:visited{
+  color: #008065;
+}
+.no-registrado:hover{
+  font-size: 21px;
+  color: #008065;
+  margin-right: 88px;
+}
+
+
+
+
+/* VENTANA DE REGISTRO */
+
+.lightbox-registro{
+  width: 600px;
+  height: 650px;
+  background-color: white;
+  top: 30px;
+  left: 460px;
+  border-radius: 20px;
+  transition: 1s;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  margin-top: 80px;
+}
+.conten-registro-text{
+  width: 250px;
+  height: 70px;
+  margin: auto;
+  border: 1px solid blue;
+  margin-top: 30px;
+  text-align: center;
+}
+.registro-text{
+  font-family: Alba;
+  font-size: 35px;
+  color: #008065;
+  margin: auto;
+  border: 1px solid black;
+}
+.conten-registro-form{
+  width: 500px;
+  height: 300px;
+  border: 1px solid blue;
+  margin: auto;
+}
+.conten-registro-rut{
+  width: 500px;
+  height: 50px;
+  border: 1px solid red;
+}
+.conten-registro-nombre{
+  width: 500px;
+  height: 50px;
+  border: 1px solid red;
+}
+.conten-registro-apellido{
+  width: 500px;
+  height: 50px;
+  border: 1px solid red;
+}
+.conten-registro-telefono{
+  width: 500px;
+  height: 50px;
+  border: 1px solid red;
+}
+.conten-registro-correo{
+  width: 500px;
+  height: 50px;
+  border: 1px solid red;
+}
+.conten-registro-clave{
+  width: 500px;
+  height: 50px;
+  border: 1px solid red;
+}
+.conten-registro-terminos{
+  width: 500px;
+  height: 50px;
+  border: 1px solid brown;
+}
+.lbl-registro{
+  font-family: Calibri;
+  font-size: 25px;
+  color: #666666;
+  margin-top: 8px;
+}
+#txtRut{
+  width: 250px;
+  height: 30px;
+  font-family: Calibri;
+  font-size: 25px;
+  color: #666666;
+  margin-top: 8px;
+  margin-left: 165px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+}
+#txtNombre{
+  width: 250px;
+  height: 30px;
+  font-family: Calibri;
+  font-size: 25px;
+  color: #666666;
+  margin-top: 8px;
+  margin-left: 110px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+}
+#txtApellido{
+  width: 250px;
+  height: 30px;
+  font-family: Calibri;
+  font-size: 25px;
+  color: #666666;
+  margin-top: 8px;
+  margin-left: 110px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+}
+#txtTelefono{
+  width: 250px;
+  height: 30px;
+  font-family: Calibri;
+  font-size: 25px;
+  color: #666666;
+  margin-top: 8px;
+  margin-left: 110px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+}
+#txtCorreoRegistro{
+  width: 250px;
+  height: 30px;
+  font-family: Calibri;
+  font-size: 25px;
+  color: #666666;
+  margin-top: 8px;
+  margin-left: 122px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+}
+#txtClaveRegistro{
+  width: 250px;
+  height: 30px;
+  font-family: Calibri;
+  font-size: 25px;
+  color: #666666;
+  margin-top: 8px;
+  margin-left: 77px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+}
+#txtClaveValidar{
+  width: 250px;
+  height: 30px;
+  font-family: Calibri;
+  font-size: 25px;
+  color: #666666;
+  margin-top: 8px;
+  margin-left: 203px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+}
+#terms-checkbox{
+  width: 20px;
+  height: 18px;
+  font-family: Calibri;
+  font-size: 20px;
+  color: #666666;
+  margin-top: 15px;
+  margin-left: 133px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+}
+.terminosycondiciones-link{
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  font-family: Calibri;
+  color: #008065;
+  margin-right: 60px;
+}
+.terminosycondiciones-link:visited{
+  color: #008065;
+}
+.terminosycondiciones-link:hover{
+  color: #008065;
+}
+.acepto-los{
+  width: 100px;
+  height: 10px;
+  font-size: 20px;
+  font-family: Calibri;
+  color: #666666;
+}
+.conten-btn-registro{
+  width: 500px;
+  height: 70px;
+  border: 1px solid red;
+}
+.btn-registro{
+  width: 180px;
+  height: 60px;
+  font-family: Calibri;
+  font-size: 25px;
+  float: right;
+  margin-right: 45px;
+  margin-top: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid GRAY;
+  background-color: white;
+  color: #008065;
+}
+  .btn-registro:hover{
+  color: #02130D;
+-webkit-box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
+-moz-box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
+box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
+
+  transition: 0.2s
+}
+.conten-ya-registrado{
+  width: 500px;
+  height: 40px;
+  border: 1px solid blue;
+  margin-top: 10px;
+}
+.ya-registrado-text{
+  font-family: Calibri;
+  font-size: 20px;
+  color: #666666;
+  float: left;
+  margin: auto;
+  margin-left: 90px;
+}
+.ya-registrado-link{
+  font-family: Calibri;
+  font-size: 20px;
+  color: #008065;
+  float: right;
+  margin-right: 80px;
+  margin-top: -1px;
+}
+.ya-registrado-link:visited{
+  color: #008065;
+}
+.ya-registrado-link:hover{
+  font-size: 21px;
+  color: #008065;
+  margin-right: 78px;
+}
+
+
+@media (min-width: 1281px) and (max-width: 1500px) {
+  .lightbox-login{
+    width: 600px;
+    height: 450px;
+    top: 80px;
+    left: 420px;
+  }
+  .lightbox-registro{
+    width: 600px;
+    height: 660px;
+    top: 80px;
+    left: 420px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1280px) {
+  .lightbox-login{
+    width: 600px;
+    height: 450px;
+    top: 80px;
+    left: 350px;
+  }
+  .lightbox-registro{
+    width: 600px;
+    height: 660px;
+    top: 80px;
+    left: 350px;
+  }
+}
+@media (max-width: 768px) {
+  .lightbox-login{
+    width: 500px;
+    height: 450px;
+    top: 80px;
+    left: 130px;
+  }
+  .lightbox-registro{
+    width: 500px;
+    height: 660px;
+    top: 80px;
+    left: 130px;
+  }
+  .lightbox-exito-login{
+    width: 600px;
+    height: 250px;
+    top: 80px;
+    left: 100px;
+    color: #666666;
+  }
+}
+@media (max-width: 480px) {
+  /*LOGIN*/
+  .lightbox-login{
+    width: 300px;
+    height: 350px;
+    top: 80px;
+    left: 30px;
+  }
+
+  #txtCorreo{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-left: 70px;
+    border-radius: 5px;
+  }
+  #txtClave{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-left: 40px;
+    border-radius: 5px;
+  }
+  .labelLogin{
+    font-family: Calibri;
+    font-size: 15px;
+    margin-top: 8px;
+  }
+  .btnLogin{
+    width: 120px;
+    height: 40px;
+    font-family: Calibri;
+    font-size: 15px;
+    float: right;
+    margin-right: 25px;
+    margin-top: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid purple;
+    background-color: white;
+    color: #008065;
+  }
+  .not-registered-container{
+    width: 250px;
+    height: 60px;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .not-registered-text{
+    font-family: Calibri;
+    font-size: 15px;
+    color: #666666;
+    float: left;
+    margin: auto;
+    margin-left: 50px;
+  }
+  .not-registered-link{
+    font-family: Calibri;
+    font-size: 15px;
+    color: #008065;
+    float: right;
+    margin-right: 90px;
+    margin-top: -1px;
+  }
+  .login-form-container{
+    width: 300px;
+    height: 250px;
+    border: 1px solid cyan;
+    margin: auto;
+  }
+  .login-correo-container{
+    width: 300px;
+    height: 60px;
+    border: 1px solid red;
+  }
+  .login-password-container{
+    width: 300px;
+    height: 60px;
+    border: 1px solid red;
+  }
+  .login-text-container{
+    width: 250px;
+    height: 40px;
+    margin: auto;
+    border: 2px solid blue;
+    margin-top: 30px;
+  }
+  .login-text{
+    font-family: Alba;
+    font-size:20px;
+    color: #993399;
+    margin: auto;
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  /*VENTANA REGISTRO*/
+  .lightbox-register{
+    width: 300px;
+    height: 500px;
+    top: 80px;
+    left: 30px;
+  }
+  .register-text-container{
+    width: 250px;
+    height: 40px;
+    margin: auto;
+    border: 1px solid blue;
+    margin-top: 30px;
+  }
+  .register-text{
+    font-size: 20px;
+    margin: auto;
+  }
+  .register-form-container{
+    width: 280px;
+    height: 300px;
+    border: 1px solid blue;
+    margin: auto;
+  }
+  .register-nombre-container{
+    width: 280px;
+    height: 50px;
+    border: 1px solid red;
+  }
+  .register-apellido-container{
+    width: 280px;
+    height: 50px;
+    border: 1px solid red;
+  }
+  .register-correo-container{
+    width: 280px;
+    height: 50px;
+    border: 1px solid red;
+  }
+  .register-password-container{
+    width: 280px;
+    height: 50px;
+    border: 1px solid red;
+  }
+  .register-terminos-container{
+    width: 280px;
+    height: 40px;
+    border: 1px solid brown;
+  }
+  .labelRegister{
+    font-family: Calibri;
+    font-size: 15px;
+    color: #666666;
+    margin-top: 8px;
+  }
+  #txtNombre{
+    width: 150px;
+    height: 30px;
+    font-family: Calibri;
+    font-size: 20px;
+    margin-top: -30px;
+    margin-left: 100px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline: none;
+  }
+  #txtApellido{
+    width: 150px;
+    height: 30px;
+    font-family: Calibri;
+    font-size: 15px;
+    margin-top: -50px;
+    margin-left: 100px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  #txtCorreoRegister{
+    width: 150px;
+    height: 30px;
+    font-family: Calibri;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 50px;
+    border-radius: 5px;
+  }
+  #txtPasswordRegister{
+    width: 150px;
+    height: 30px;
+    font-family: Calibri;
+    font-size: 15px;
+    color: #666666;
+    margin-top: -30px;
+    margin-left: 100px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline: none;
+  }
+  #txtPasswordValidate{
+    width: 150px;
+    height: 30px;
+    font-family: Calibri;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-left: 100px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline: none;
+  }
+  #terms-checkbox{
+    width: 20px;
+    height: 18px;
+    font-family: Calibri;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline: none;
+  }
+  .acepto-los{
+    width: 50px;
+    height: 10px;
+    font-size: 12px;
+    font-family: Calibri;
+    color: #666666;
+  }
+  .terminosycondiciones-link{
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    font-family: Calibri;
+    color: #822982;
+    margin-right: 60px;
+  }
+
+  .register-button-container{
+    width: 280px;
+    height: 50px;
+    border: 1px solid red;
+  }
+  .btnRegister{
+    width: 120px;
+    height: 40px;
+    font-family: Calibri;
+    font-size: 15px;
+    float: right;
+    margin-right: 25px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+    .btnRegister:hover{
+    background-color: #ededed;
+    color: #822982;
+    -webkit-box-shadow: -1px 1px 20px 3px rgba(118,48,183,1);
+    -moz-box-shadow: -1px 1px 20px 3px rgba(118,48,183,1);
+    box-shadow: -1px 1px 20px 3px rgba(118,48,183,1);
+    transition: 0.2s
+  }
+  .already-registered-container{
+    width: 280px;
+    height: 40px;
+    border: 1px solid blue;
+    margin-top: 0px;
+  }
+  .already-registered-text{
+    font-family: Calibri;
+    font-size: 15px;
+    margin: auto;
+    margin-left: 90px;
+  }
+  .already-registered-link{
+    font-family: Calibri;
+    font-size: 15px;
+    margin-right: 80px;
+    margin-top: -1px;
+  }
+  .already-registered-link:visited{
+    color: #822982;
+  }
+  .already-registered-link:hover{
+    font-size: 16px;
+    color: #008065;
+    margin-right: 78px;
+  }
+
+  /*VENTANA DE INFO*/
+  .exito-login-lightbox{
+    width: 300px;
+    height: 150px;
+    top: 80px;
+    left: 30px;
+  }
+  .exito-login-container{
+    margin: auto;
+    width: 250px;
+    height: 70px;
+    border: 1px solid red;
+    margin-top: 30px;
+
+  }
+  .exito-login-ajax{
+    text-align: center;
+    font-family: Calibri;
+    font-size:18px;
+  }
+}

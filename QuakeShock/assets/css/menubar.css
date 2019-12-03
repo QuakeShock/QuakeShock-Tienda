@@ -1,0 +1,154 @@
+.body{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.menubar-bg{
+  width: 100%;
+  height: 50px;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  background-color: #02130D;
+  border: 1px solid red;
+  margin: auto;
+  margin-top: 15px;
+  border-bottom: 5px solid white;
+
+}
+.menubar{
+  width: 85%;
+  height: 50px;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  background-color:none;
+  border: 1px solid blue;
+  margin: auto;
+  margin-top: 15px;
+  position: default;
+
+}
+#menubar-in{
+  width: 100%;
+  height: 0px;
+  background-color: #02130D;
+}
+#catalogo-menu{
+  width: 250px;
+  height: 49px;
+  float: left;
+  transition: 1s;
+  background-color: #018059;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  text-align: center;
+  margin-right: 42px;
+  margin-left: 3px;
+
+}
+#catalogo-menu-in{
+  width: 300px;
+  height: 5px;
+  background-color: white;
+  float: left;
+  margin-top: 10px;
+}
+#categorias-menu{
+  width: 250px;
+  height: 49px;
+  float: left;
+  transition: 1s;
+  background-color: #018059;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  text-align: center;
+  margin-right: 42px;
+}
+#categorias-menu-in{
+  width: 300px;
+  height: 5px;
+  background-color: white;
+  float: left;
+  margin-top: 10px;
+}
+#contacto-menu{
+  width: 250px;
+  height: 49px;
+  float: left;
+  transition: 1s;
+  background-color: #018059;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  text-align: center;
+  margin-right: 42px;
+}
+#contacto-menu-in{
+  width: 300px;
+  height: 5px;
+  background-color: white;
+  float: left;
+  margin-top: 10px;
+}
+#tyc-menu{
+  width: 330px;
+  height: 49px;
+  float: left;
+  transition: 1s;
+  background-color: #018059;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  text-align: center;
+}
+#tyc-menu-in{
+  width: 330px;
+  height: 5px;
+  background-color: white;
+  float: left;
+  margin-top: 10px;
+}
+.menubar-text{
+    width: 100%;
+    font-family: exo-regular;
+    color: white;
+    font-size: 25px;
+    float: left;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.menubar-text.tyc{
+    width: 100%;
+    font-family: exo-regular;
+    color: white;
+    font-size: 25px;
+    float: left;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+        
+        
+        
+        
+        
+        
+@font-face {
+font-family: "exo-regular";
+src: url("fonts/Exo-Regular.otf");
+}
+@font-face {
+font-family: "agero";
+src: url("fonts/agero.ttf");
+}
+@font-face {
+font-family: "Ceria Lebaran";
+src: url("css/fonts/Ceria Lebaran.otf");
+}
