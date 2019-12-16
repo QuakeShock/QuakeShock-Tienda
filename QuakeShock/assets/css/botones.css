@@ -79,16 +79,125 @@
     transition: 0.2s
 }
 .btn.carrito:active{
+    background-color: #00FF84;
+    transition: 0.1s;
+    outline: none;
+    outline-style: none;
+    outline-color: black;
+}
+
+
+/*----------------------------------------------------------FORMULARIO LOGIN----------------------------------------------*/
+.btn-login-form{
+  width: 180px;
+  height: 60px;
+  font-family: Calibri;
+  font-size: 25px;
+  float: right;
+  margin-right: 65px;
+  margin-top: 25px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid GRAY;
+  background-color: white;
+  color: #008065;
+}
+.btn-login-form:hover{
+
+  color: #02130D;
+-webkit-box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
+-moz-box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
+box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
+
+  transition: 0.2s
+}
+
+/*----------------------------------------------------------FORMULARIO REGISTRO----------------------------------------------*/
+
+.btn-registro{
+  width: 180px;
+  height: 60px;
+  font-family: Calibri;
+  font-size: 25px;
+  float: right;
+  margin-right: 45px;
+  margin-top: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid GRAY;
+  background-color: white;
+  color: #008065;
+}
+  .btn-registro:hover{
+  color: #02130D;
+-webkit-box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
+-moz-box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
+box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
+
+  transition: 0.2s
+}
+/*----------------------------------------------------------BOTONES DE GESTION----------------------------------------------*/
+.btn.gestion-tabla{
+    width: 120px;
+    height: 20px;
+    color: #06855E;
+    background-color: #E7FFF2;
+    border-radius: 5px;
+    border:none;
+    margin-right: 12px;
+    transition: 0.1s 0.1s;
+    outline-color: black;
+    margin-bottom: 5px;
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 5px;
+}
+.btn.gestion-tabla.detalles{
+    width: 200px;
+    height: 30px;
+    float: left;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+.btn.gestion-tabla:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.gestion-tabla:active{
     background-color: #AAFFD6;
     transition: 0.1s;
     outline: none;
     outline-style: none;
     outline-color: black;
 }
-/*----------PERFIL--------*/
+.btn.gestion-tabla.roja{
+    background-color: #FF5454;
+    color: white;
+}
+.btn.gestion-tabla.eliminar-favorito{
+    width: 100px;
+    height: 25px;
+    float: left;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #FF5454;
+    color: white;
+    padding: 10px;
+}
+.btn.gestion-tabla.roja:hover{
+    background-color: #ffc4c4;
+    color: gray;
+}
+/*----------------------------------------------------PERFIL----------------------------------------------------------------*/
 
 
-/*---------BOTON MI PERFIL HEADER-----------*/
+/*--------------------------------------------BOTON MI PERFIL HEADER--------------------------------------------------------*/
 .btn.mi-perfil{
     height: 23px;
 
@@ -122,7 +231,7 @@
     outline-color: black;
 }
 
-/*---------BOTON MIS PEDIDOS HEADER-----------*/
+/*-----------------------------------------BOTON MIS PEDIDOS HEADER--------------------------------------------------------*/
 .btn.mis-pedidos{
     height: 23px;
 
@@ -155,7 +264,7 @@
     outline-style: none;
     outline-color: black;
 }
-/*---------BOTON CARRITO PERFIL HEADER-----------*/
+/*------------------------------------------BOTON CARRITO PERFIL HEADER------------------------------------------------*/
 .btn.carrito-perfil{
     width: 60px;
     height: 50px;
@@ -191,7 +300,7 @@
     float: left;
 }
 
-/*---------BOTON FAVORITOS PERFIL HEADER-----------*/
+/*-----------------------------------------BOTON FAVORITOS PERFIL HEADER-------------------------------------------*/
 .btn.favoritos-perfil{
     width: 60px;
     height: 50px;
@@ -230,7 +339,7 @@
     float: left
 }
 
-/*---------BOTON CERRAR SESIÓN-----------*/
+/*----------------------------------------BOTON CERRAR SESIÓN--------------------------------------------------*/
 .btn.logout{
     color: #06855E;
     background-color: white;
@@ -263,7 +372,7 @@
     margin-top: 2px;
     margin-right: 7px;
 }
-/*---------BOTON GESTIONAR DIRECCIONES-----------*/
+/*---------------------------------------------BOTON GESTIONAR DIRECCIONES------------------------------------------*/
 .btn.direcciones{
     color: #06855E;
     background-color: white;
@@ -298,7 +407,7 @@
     margin-right: 7px;
     margin-left: 25px;
 }
-/*---------BOTON MODIFICAR PERFIL-----------*/
+/*--------------------------------------------------BOTON MODIFICAR PERFIL--------------------------------------------*/
 .btn.modificar-perfil{
     color: #06855E;
     background-color: white;
@@ -333,7 +442,7 @@
     margin-right: 7px;
     margin-left: 35px;
 }
-/*---------BOTON RECUPERAR CLAVE-----------*/
+/*------------------------------------------------BOTON RECUPERAR CLAVE----------------------------------------------*/
 .btn.recuperar-clave{
     color: #06855E;
     background-color: white;
@@ -411,7 +520,7 @@
     margin-left: 25px;
 }
 
-/*---------GESTIONAR DESTACADOS-----------*/
+/*--------------------------------------------------------------GESTIONAR DESTACADOS-------------------------------------------------------------------*/
 
 .btn.gestionar-destacados{
     color: #06855E;
@@ -448,7 +557,7 @@
     margin-left: 25px;
 }
 
-/*---------GESTION TYC-----------*/
+/*--------------------------------------------------------------------GESTION TYC-------------------------------------------------------------------*/
 
 .btn.gestionar-tyc{
     color: #06855E;
@@ -485,7 +594,7 @@
     margin-left: 30px;
 }
 
-/*---------CREAR USUARIO-----------*/
+/*-----------------------------------------------------------------CREAR USUARIO---------------------------------------------------------------------*/
 
 .btn.crear-usuario{
     color: #06855E;
@@ -522,7 +631,7 @@
     margin-left: 25px;
 }
 
-/*---------ELIMINAR USUARIO-----------*/
+/*----------------------------------------------------------------------ELIMINAR USUARIO---------------------------------------------------------------*/
 
 .btn.eliminar-usuario{
     color: #06855E;
@@ -559,7 +668,7 @@
     margin-left: 25px;
 }
 
-/*---------BUSCAR USUARIO-----------*/
+/*-------------------------------------------------------------BUSCAR USUARIO------------------------------------------------------------------------------*/
 
 .btn.buscar-usuario{
     color: #06855E;
@@ -596,7 +705,7 @@
     margin-left: 25px;
 }
 
-/*---------MODIFICAR USUARIO-----------*/
+/*--------------------------------------------------------------MODIFICAR USUARIO---------------------------------------------------------------------------*/
 
 .btn.modificar-usuario{
     color: #06855E;
@@ -633,7 +742,7 @@
     margin-left: 25px;
 }
 
-/*---------VER USUARIOS-----------*/
+/*----------------------------------------------------------------VER USUARIOS---------------------------------------------------------------------*/
 
 .btn.ver-usuarios{
     color: #06855E;
@@ -706,9 +815,658 @@
     float: left;
     margin-top: 5px;
 }
-#btn-ver-usuarios-text{
+#btn-gestionar-productos-text{
     float: right;
     margin-top: -40px;
     margin-right: 7px;
     margin-left: 25px;
+}
+/*----------------------------------------------------GESTIONAR PEDIDOS-----------------------------------------------------------------------*/
+
+.btn.gestionar-pedidos{
+    color: #06855E;
+    background-color: white;
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    border:1px solid green;
+    transition: 0.1s 0.1s;
+}
+.btn.gestionar-pedidos:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.gestionar-pedidos:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+}
+#btn-gestionar-pedidos-img{
+    width: 25px;
+    height: 35px;
+    margin-left: 5px;
+    float: left;
+    margin-top: 0px;
+}
+#btn-gestionar-pedidos-text{
+    float: right;
+    margin-top: -40px;
+    margin-right: 7px;
+    margin-left: 25px;
+}
+
+/*----------------------------------------------------CREAR PRODUCTO-----------------------------------------------------------------------*/
+
+.btn.crear-producto{
+    color: #06855E;
+    background-color: white;
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    border:1px solid green;
+    transition: 0.1s 0.1s;
+}
+.btn.crear-producto:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.crear-producto:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+}
+#btn-crear-producto-img{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    float: left;
+    margin-top: 0px;
+}
+#btn-crear-producto-text{
+    float: right;
+    margin-top: -27px;
+    margin-right: 7px;
+    margin-left: 30px;
+}
+
+/*----------------------------------------------------ELIMINAR PRODUCTO-----------------------------------------------------------------------*/
+
+.btn.eliminar-producto{
+    color: #06855E;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border:1px solid green;
+    transition: 0.1s 0.1s;
+}
+.btn.eliminar-producto:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.eliminar-producto:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+}
+#btn-eliminar-producto-img{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    float: left;
+    margin-top: 0px;
+}
+#btn-eliminar-producto-text{
+    float: right;
+    margin-top: -27px;
+    margin-right: 7px;
+    margin-left: 25px;
+}
+
+/*----------------------------------------------------BUSCAR PRODUCTO-----------------------------------------------------------------------*/
+
+.btn.buscar-producto{
+    color: #06855E;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border:1px solid green;
+    transition: 0.1s 0.1s;
+}
+.btn.buscar-producto:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.buscar-producto:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+}
+#btn-buscar-producto-img{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    float: left;
+    margin-top: 0px;
+}
+#btn-buscar-producto-text{
+    float: right;
+    margin-top: -27px;
+    margin-right: 7px;
+    margin-left: 25px;
+}
+
+/*----------------------------------------------------MODIFICAR PRODUCTO-----------------------------------------------------------------------*/
+
+.btn.modificar-producto{
+    color: #06855E;
+    background-color: white;
+    width: 210px;
+    height: 50px;
+    border-radius: 5px;
+    border:1px solid green;
+    transition: 0.1s 0.1s;
+}
+.btn.modificar-producto:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.modificar-producto:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+}
+#btn-modificar-producto-img{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    float: left;
+    margin-top: 0px;
+}
+#btn-modificar-producto-text{
+    float: right;
+    margin-top: -27px;
+    margin-right: 7px;
+    margin-left: 35px;
+}
+
+/*----------------------------------------------------VER PRODUCTOS-----------------------------------------------------------------------*/
+
+.btn.ver-productos{
+    color: #06855E;
+    background-color: white;
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    border:1px solid green;
+    transition: 0.1s 0.1s;
+}
+.btn.ver-productos:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.ver-productos:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+}
+#btn-ver-productos-img{
+    width: 25px;
+    height: 35px;
+    margin-left: 5px;
+    float: left;
+    margin-top: 0px;
+}
+#btn-ver-productos-text{
+    float: right;
+    margin-top: -30px;
+    margin-right: 7px;
+    margin-left: 25px;
+}
+/*----------------------------------------------------CREAR CATEGORIA----------------------------------------------------------------------*/
+
+.btn.crear-categoria{
+    color: #06855E;
+    background-color: white;
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    border:1px solid green;
+    transition: 0.1s 0.1s;
+}
+.btn.crear-categoria:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.crear-categoria:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+}
+#btn-crear-categoria-img{
+    width: 25px;
+    height: 35px;
+    margin-left: 5px;
+    float: left;
+    margin-top: 0px;
+}
+#btn-crear-categoria-text{
+    float: right;
+    margin-top: -30px;
+    margin-right: 7px;
+    margin-left: 25px;
+}
+
+/*----------------------------------------------------ELIMINAR CATEGORIA----------------------------------------------------------------------*/
+
+.btn.eliminar-categoria{
+    color: #06855E;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border:1px solid green;
+    transition: 0.1s 0.1s;
+}
+.btn.eliminar-categoria:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.eliminar-categoria:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+}
+#btn-eliminar-categoria-img{
+    width: 25px;
+    height: 35px;
+    margin-left: 5px;
+    float: left;
+    margin-top: 0px;
+}
+#btn-eliminar-categoria-text{
+    float: right;
+    margin-top: -30px;
+    margin-right: 7px;
+    margin-left: 20px;
+}
+
+/*----------------------------------------------------VER CATEGORIAS----------------------------------------------------------------------*/
+
+.btn.ver-categorias{
+    color: #06855E;
+    background-color: white;
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    border:1px solid green;
+    transition: 0.1s 0.1s;
+}
+.btn.ver-categorias:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.ver-categorias:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+}
+#btn-ver-categorias-img{
+    width: 25px;
+    height: 35px;
+    margin-left: 5px;
+    float: left;
+    margin-top: 0px;
+}
+#btn-ver-categorias-text{
+    float: right;
+    margin-top: -30px;
+    margin-right: 7px;
+    margin-left: 25px;
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------BOTONES DE PRODUCTOS-----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*---------------------------------------------------BOTON PEQUEÑO COMPRAR (CATALOGO)---------------------------------------------------------------------------*/
+
+.btn-comprar{
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    background-color: #018059;
+    color: white;
+    font-family: exo;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    border-style: none;
+    margin-left:0px;
+    float: left;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+/*---------------------------------------------------BOTON PEQUEÑO VER MÁS (CATALOGO)---------------------------------------------------------------------------*/
+
+.btn-ver-mas{
+  width: 150px;
+  height: 55px;
+  float: left;
+  transition: 1s;
+  background-color:#FFFFFF;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 160px;
+  border: 1px solid gray;
+}
+.btn-ver-mas:hover{
+    -webkit-transform:scale(1.01);
+    -moz-transform:scale(1.01);
+    -ms-transform:scale(1.01);
+    -o-transform:scale(1.01);
+    transform:scale(1.01);
+    -webkit-box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
+    -moz-box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
+    box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
+    transition: 0.2s
+}
+.btn-ver-mas:active{
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    transform:scale(1.1);
+}
+.txt-ver-mas{
+    width: 100%;
+    font-family: exo-regular;
+    color: white;
+    font-size: 25px;
+    float: left;
+    margin-top: 12px;
+    color: #018059;
+}
+
+
+/*---------------------------------------------------AÑADIR AL CARRITO---------------------------------------------------------------------------*/
+
+.btn.add-carrito{
+    color: #06855E;
+    background-color: white;
+    width: 230px;
+    height: 60px;
+    border-radius: 5px;
+    border:1px solid green;
+    transition: 0.1s 0.1s;
+    float:left;
+    margin-left: 0px;
+    margin-top: -60px;
+    padding-left: 40px;
+    background: url('../img/icons/carrito.png');
+    background-position: left;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position-x: 10px; 
+}
+.btn.add-carrito:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.add-carrito:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+}
+#btn-add-carrito-img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: -50px;
+    float: left;
+}
+#btn-add-carrito-text{
+    font-family: calibri;
+    font-size: 25px;
+    margin-top: -30px;
+    margin-right: 0px;
+    margin-left: 0px;
+    float: left;
+}
+
+/*---------------------------------------------------AÑADIR AL FAVORITOS---------------------------------------------------------------------------*/
+
+.btn.add-favoritos{
+    color: #06855E;
+    background-color: white;
+    width: 65px;
+    height: 60px;
+    border-radius: 5px;
+    border:1px solid green;
+    transition: 0.1s 0.1s;
+    margin-left: 20px;
+    margin-top: -75px;
+    float:right;
+}
+.btn.add-favoritos:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.add-favoritos:active{
+    background-color: #FFA5A5;
+    transition: 0.1s;
+}
+#btn-add-favoritos-img{
+    width: 70px;
+    height: 80px;
+    margin-left: 0px;
+    margin-top: -5px;
+}
+
+/*---------------------------------------------------REALIZAR PEDIDO---------------------------------------------------------------------------*/
+
+.btn.realizar-pedido{
+    color: #06855E;
+    background-color: white;
+    width: 230px;
+    height: 60px;
+    border-radius: 5px;
+    border:1px solid green;
+    transition: 0.1s 0.1s;
+    font-family: calibri;
+    font-size: 25px;
+    margin-left: 0px;
+    margin-top: 10px;
+    padding-left: 40px;
+    background: url('../img/icons/tick.png');
+    background-position: left;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position-x: 10px; 
+}
+.btn.realizar-pedido:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.realizar-pedido:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+}
+#btn-realizar-pedido-text{
+    font-family: calibri;
+    font-size: 25px;
+    margin-top: -30px;
+    margin-right: 0px;
+    margin-left: 0px;
+    float: left;
+}
+
+/*---------------------------------------------------GESTIONAR DIRECCIONES---------------------------------------------------------------------------*/
+.btn.gestionar-direcciones{
+    color: #06855E;
+    background-color: white;
+    width: 280px;
+    height: 50px;
+    border-radius: 5px;
+    border:1px solid green;
+    transition: 0.1s 0.1s;
+    background: url('../img/icons/house.png');
+    background-position: left;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    float: left;
+    margin-top: 45px;
+    margin-left: -280px;
+    padding-left: 20px;
+}
+.btn.gestionar-direcciones:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.gestionar-direcciones:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+}
+/*---------------------------------------------------PAGAR PEDIDO---------------------------------------------------------------------------*/
+
+.btn.pagar-pedido{
+    color: #06855E;
+    background-color: white;
+    width: 280px;
+    height: 60px;
+    border-radius: 5px;
+    border:1px solid green;
+    transition: 0.1s 0.1s;
+    font-family: calibri;
+    font-size: 25px;
+    
+    margin-top: 10px;
+    padding-left: 40px;
+    background: url('../img/icons/checkout.png');
+    background-position: left;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position-x: 10px; 
+    float: left;
+    margin-top: 20px;
+    margin-left: 350px;
+}
+.btn.pagar-pedido:hover{
+    background-color: #ededed;
+    color: #06855E;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.pagar-pedido:active{
+    background-color: #AAFFD6;
+    transition: 0.1s;
+}
+#btn-realizar-pedido-text{
+    font-family: calibri;
+    font-size: 25px;
+    margin-top: -30px;
+    margin-right: 0px;
+    margin-left: 0px;
+    float: left;
+}
+
+/*---------------------------------------------------CANCELAR PEDIDO---------------------------------------------------------------------------*/
+
+.btn.cancelar-pedido{
+    color: darkred;
+    background-color: white;
+    width: 280px;
+    height: 60px;
+    border-radius: 5px;
+    border:1px solid darkred;
+    transition: 0.1s 0.1s;
+    font-family: calibri;
+    font-size: 25px;
+    
+    margin-top: 10px;
+    padding-left: 40px;
+    background: url('../img/icons/cancel.png');
+    background-position: left;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position-x: 10px; 
+    float: left;
+    margin-top: 20px;
+    margin-left: 350px;
+}
+.btn.cancelar-pedido:hover{
+    background-color: #ededed;
+    color: red;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: 0.1s
+}
+.btn.cancelar-pedido:active{
+    background-color: #ffb5b5;
+    transition: 0.1s;
+}
+#btn-cancelar-pedido-text{
+    font-family: calibri;
+    font-size: 25px;
+    margin-top: -30px;
+    margin-right: 0px;
+    margin-left: 0px;
+    float: left;
 }

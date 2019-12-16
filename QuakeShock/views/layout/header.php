@@ -4,8 +4,9 @@ ob_start();
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta charset="UTF-8">>
+        <meta charset="UTF-8">
         <title>QuakeShock Tienda On-Line</title>
+        <link rel="stylesheet" href="<?= base_url ?>assets/css/general.css">
         <link rel="stylesheet" href="<?= base_url ?>assets/css/header.css">
         <link rel="stylesheet" href="<?= base_url ?>assets/css/galeria.css">
         <link rel="stylesheet" href="<?= base_url ?>assets/css/index.css">
@@ -16,7 +17,14 @@ ob_start();
         <link rel="stylesheet" href="<?= base_url ?>assets/css/tablas.css">
         <link rel="stylesheet" href="<?= base_url ?>assets/css/perfil.css">
         <link rel="stylesheet" href="<?= base_url ?>assets/css/categoria.css">
+        <link rel="stylesheet" href="<?= base_url ?>assets/css/catalogo.css">
+        <link rel="stylesheet" href="<?= base_url ?>assets/css/carrito-compras.css">
+        <link rel="stylesheet" href="<?= base_url ?>assets/css/pedido.css">
+        <link rel="stylesheet" href="<?= base_url ?>assets/css/favoritos.css">
+
         <link rel="stylesheet" href="<?= base_url ?>assets/css/gestion-usuarios.css">
+        <link rel="stylesheet" href="<?= base_url ?>assets/css/gestion-productos.css">
+        <link rel="stylesheet" href="<?= base_url ?>assets/css/detalle-producto.css">
         <script src="<?= base_url ?>assets/js/parsley.js"></script>
         <script src="<?= base_url ?>assets/js/jquery.js"></script>
         <script src="<?= base_url ?>assets/js/index.js"></script>
@@ -26,8 +34,13 @@ ob_start();
         <script src="<?= base_url ?>assets/js/gallery.js"></script>
         <script src="<?= base_url ?>assets/js/jqueryknob.js"></script>
         <script src="<?= base_url ?>assets/js/general.js"></script>
-        <script src="<?= base_url ?>assets/js/login-registro.js"></script>
-        <script src="<?= base_url ?>assets/js/gestion-usuarios.js"></script>
+        <script src="<?= base_url ?>assets/js/lightboxes.js"></script>
+        <script src="http://js.nicedit.com/nicEdit-latest.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            bkLib.onDomLoaded(function () {
+               new nicEditor({buttonList : ['fontSize','bold','italic','underline','strikeThrough','subscript','superscript','html','image'], maxHeight: 140}).panelInstance('editArea');
+            });
+        </script>
     </head>
     <body>
         <div class="darkbox">
@@ -67,7 +80,7 @@ ob_start();
                             ?>
 
                             <button type="button" name="btnLogin" class="btn login">Iniciar Sesión</button>
-                            <button type="button" name="btnCarrito" class="btn carrito"><img src="<?= base_url ?>assets/img/icons/carrito.png" id="btn-carrito-img"></button>
+                            <button type="button" name="btnCarrito" class="btn carrito" onClick="document.location.href = '' + baseurl + 'carrito/index'"><img src="<?= base_url ?>assets/img/icons/carrito.png" id="btn-carrito-img"></button>
                             <button type="button" name="btnRegister" class="btn registro">Registrarse</button>
 
                         <?php

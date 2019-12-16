@@ -3,14 +3,17 @@
 ob_start();
 
 require_once 'models/Usuario.php';
+require_once 'helpers/utils.php';
 
 class AdminController {
 
     public function gestion_usuarios() {
+        utils::isAdmin();
         require_once 'views/admin/gestion-usuarios.php';
     }
 
     public function crear_usuario() {
+        utils::isAdmin();
         if (isset($_POST)) {
             $usuario = new Usuario();
             $usuario->setRut($_POST['txtRut']);
@@ -34,6 +37,7 @@ class AdminController {
     }
 
     public function eliminar_usuario() {
+        utils::isAdmin();
         $usuario = new Usuario();
         $resultado = $usuario->delete($_POST['txtRut']);
         
@@ -46,14 +50,15 @@ class AdminController {
     }
 
     public function modificar_usuario() {
-        
+        utils::isAdmin();
     }
 
     public function buscar_usuario() {
-        
+        utils::isAdmin();
     }
 
     public function ver_usuarios() {
+        utils::isAdmin();
         $usuario = new Usuario();
         $usuarios = $usuario->getAll();
         require_once 'views/admin/ver-usuarios.php';

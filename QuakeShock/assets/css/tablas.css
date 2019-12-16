@@ -4,16 +4,30 @@ table.usuarios {
   background-color: #FFFFFF;
   text-align: left;
   margin: auto;
-  margin-top: 0px;
+  
   border-radius: 5px;
+  border: 1px solid gray;
+    color: #02130D;
+-webkit-box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
+-moz-box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
+box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
+
+  transition: 0.2s;
+
+}
+table.usuarios.categorias{
+    float: left;
+  margin-left: 310px;
+  margin-top: 50px;
 }
 table.usuarios td, table.usuarios th {
-  padding: 4px 4px;
+  padding: 10px 10px;
 }
 table.usuarios tbody td {
   font-size: 13px;
   color: #000000;
   border-radius: 5px;
+  height: 100%;
 }
 table.usuarios tr:nth-child(even) {
   background: #57EBA1;
@@ -31,5 +45,5 @@ table.usuarios thead th {
 }
 table.usuarios tfoot td {
   font-size: 16px;
-}   
+}
 

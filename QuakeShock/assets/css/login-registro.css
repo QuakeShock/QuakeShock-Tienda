@@ -1,5 +1,48 @@
+.btn-login{
+  width: 180px;
+  height: 60px;
+  font-family: Calibri;
+  font-size: 25px;
+  float: right;
+  margin-right: 65px;
+  margin-top: 25px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid GRAY;
+  background-color: white;
+  color: #008065;
+}
+.btn-login:hover{
 
+  color: #02130D;
+-webkit-box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
+-moz-box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
+box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
 
+  transition: 0.2s
+}
+.btn-registro{
+  width: 180px;
+  height: 60px;
+  font-family: Calibri;
+  font-size: 25px;
+  float: right;
+  margin-right: 45px;
+  margin-top: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid GRAY;
+  background-color: white;
+  color: #008065;
+}
+  .btn-registro:hover{
+  color: #02130D;
+-webkit-box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
+-moz-box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
+box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
+
+  transition: 0.2s;
+}
 
 
 /* VENTANA DE LOGIN */
@@ -75,29 +118,6 @@
   border-radius: 5px;
   border: 1px solid gray;
   outline: none;
-}
-.btn-login{
-  width: 180px;
-  height: 60px;
-  font-family: Calibri;
-  font-size: 25px;
-  float: right;
-  margin-right: 65px;
-  margin-top: 25px;
-  border-radius: 5px;
-  outline: none;
-  border: 1px solid GRAY;
-  background-color: white;
-  color: #008065;
-}
-.btn-login:hover{
-
-  color: #02130D;
--webkit-box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
--moz-box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
-box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
-
-  transition: 0.2s
 }
 .conten-no-registrado{
   width: 500px;
@@ -330,29 +350,7 @@ box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
 .conten-btn-registro{
   width: 500px;
   height: 70px;
-  border: 1px solid red;
-}
-.btn-registro{
-  width: 180px;
-  height: 60px;
-  font-family: Calibri;
-  font-size: 25px;
-  float: right;
-  margin-right: 45px;
-  margin-top: 10px;
-  border-radius: 5px;
-  outline: none;
-  border: 1px solid GRAY;
-  background-color: white;
-  color: #008065;
-}
-  .btn-registro:hover{
-  color: #02130D;
--webkit-box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
--moz-box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
-box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
-
-  transition: 0.2s
+  border: 0px solid red;
 }
 .conten-ya-registrado{
   width: 500px;

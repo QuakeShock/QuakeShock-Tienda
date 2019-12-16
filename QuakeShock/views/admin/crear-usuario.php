@@ -1,4 +1,5 @@
 <div class="lightbox-crear-usuario">
+    <img src="<?=base_url?>assets/img/icons/x.png" onclick='cerrarTodo()' class='cerrar'>
     <div class="conten-titulo-text">
         <h2 class="titulo-form-text">Crea un usuario</h2>
     </div>

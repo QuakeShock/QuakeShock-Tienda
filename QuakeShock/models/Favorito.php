@@ -45,6 +45,45 @@ class Favorito {
     function setUsuario_id_usuario($usuario_id_usuario) {
         $this->usuario_id_usuario = $usuario_id_usuario;
     }
+    
+    public function save(){
+        
+        $query = "INSERT INTO favorito VALUES (NULL, {$this->getProducto_id_producto()}, {$this->getUsuario_id_usuario()});";
+        $save = $this->db->query($query);
+        $result = false;
+        if ($save) {
+            $result = true;
+        }
+        return $result;
+    }
+    
+    public function getAllByUser(){
+        $query = "SELECT * FROM favorito WHERE usuario_id_usuario = {$this->usuario_id_usuario} ";
+        $result = $this->db->query($query);
+        
+        return $result;
+    }
+    
+    public function getProductosByUsuario($id){
+        $query = "SELECT pr.*,f.* FROM producto pr "
+                . "INNER JOIN favorito f ON pr.id_producto = f.producto_id_producto "
+                . "WHERE f.usuario_id_usuario = {$id}";
+        $productos = $this->db->query($query);
+        
+        return $productos;
+    }
+    
+    public function delete(){
+        $result = false;
+        $query = "DELETE FROM favorito WHERE id_favorito = {$this->id_favorito}";
 
+        if ($this->db->query($query)==TRUE && $this->db->affected_rows > 0 ) {
+            $result = true;
+        }else{
+            $result = false;
+        }
+        return $result;
+    }
+    
 
 }

@@ -1,0 +1,113 @@
+.producto-carrito{
+    width: 600px;
+    height: 100px;
+    float: left;
+    border-radius: 0px 10px 10px 0px;
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-bottom:0px;
+    border: 1px solid lightgray;
+    
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.45);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.45);
+}
+.producto-carrito-img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.producto-carrito-nombre{
+    height: 20px;
+    font-family: calibri;
+    font-size: 20px;
+    float: left;
+    margin-left: 10px;
+    border: 0px solid gray;
+}
+.linea-carrito{
+    width: 300px;
+    height: 1px;
+    border-top: 0px solid gray;
+    margin-left: 110px;
+    margin-top: 30px;
+    border-bottom: 1px solid gray;
+}
+.producto-carrito-id{
+    font-family: calibri;
+    font-size: 15px;
+    margin-left: -130px;
+    margin-top: -65px;
+    border: 0px solid gray;
+}
+
+.producto-carrito-cantidad{
+    font-family: calibri;
+    font-size: 20px;
+    margin-left: -320px;
+    border: 0px solid gray;
+}
+
+.producto-carrito-precio{
+    font-family: calibri;
+    font-size: 20px;
+    margin-left:0px;
+    color: #008000;
+    float: left;
+    margin-right: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 0px solid gray;
+}
+.producto-carrito-subtotal{
+    font-family: calibri;
+    font-size: 20px;
+    margin-left:0px;
+    float: left;
+    margin-top: 10px;
+    color: #008000;
+    border: 0px solid gray;
+}
+.linea-carrito-total{
+    width: 1000px;
+    height: 1px;
+    border-bottom: 1px solid gray;
+    margin-top: 20px;
+    margin-left: 100px;
+    float: left;
+    border-top: 0px solid gray;
+    -webkit-box-shadow: 0px -4px 15px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: 0px -4px 15px 0px rgba(0,0,0,0.45);
+    box-shadow: 0px -4px 15px 0px rgba(0,0,0,0.45);
+}
+.conten-carrito-total{
+    width: 500px;
+    height: 40px;
+    float: left;
+    margin-left: 400px;
+    text-align: right;
+    margin-top: 20px;
+    border: 0px solid red;
+}
+.carrito-total-text{
+    font-family: exo;
+    font-size: 30px;
+}
+.carrito-total-text.total{
+    font-family: exo;
+    font-weight: bold;
+    font-size: 30px;
+    color: #008000;
+}
+.producto-carrito-eliminar{
+    
+}
+
+.producto-carrito-modificar{
+    
+}
+
+.carrito-triste{
+    width: 200px;
+    height: 200px;
+}

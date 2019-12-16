@@ -41,6 +41,6 @@
 <script src="<?= base_url ?>assets/js/jqueryknob.js"></script>
 <script src="<?= base_url ?>assets/js/login-registro.js"></script>
 <script src="<?= base_url ?>assets/js/general.js"></script>
-<script src="<?= base_url ?>assets/js/gestion-usuarios.js"></script>
+<script src="<?= base_url ?>assets/js/lightboxes.js"></script>
 </html>
 

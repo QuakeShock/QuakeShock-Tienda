@@ -26,6 +26,7 @@ if (isset($_SESSION['resultado_registrarse'])) {
 }
 ?>
 <div class="lightbox-registro">
+    <img src="<?=base_url?>assets/img/icons/x.png" onclick='cerrarTodo()' class='cerrar'>
     <div class="conten-registro-text">
         <h2 class="registro-text">Crea tu cuenta</h2>
     </div>

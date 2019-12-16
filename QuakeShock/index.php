@@ -3,6 +3,7 @@
 session_start();
 require_once 'autoload.php';
 require_once 'config/parameters.php';
+require_once 'helpers/utils.php';
 require_once 'config/db.php';
 require_once 'views/layout/menubar.php';
 require_once 'views/layout/header.php';
@@ -17,12 +18,11 @@ function mostrar_error() {
 if (isset($_GET['controller'])) {
     $nombre_controlador = $_GET['controller'] . 'Controller';
 } else {
-    mostrar_error();
+    header("Location: ".base_url."inicio/qs");
     require_once('views/layout/footer.php');
     exit();
 }
-$nombre_controllador = null;
-    clearstatcache();
+
 if (class_exists($nombre_controlador)) {
     
     $controlador = new $nombre_controlador();

@@ -1,4 +1,5 @@
 <div class="lightbox-eliminar-usuario">
+    <img src="<?=base_url?>assets/img/icons/x.png" onclick='cerrarTodo()' class='cerrar'>
     <div class="conten-titulo-text">
         <h2 class="titulo-form-text">Elimina un usuario</h2>
     </div>

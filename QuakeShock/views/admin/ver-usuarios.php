@@ -1,6 +1,6 @@
-<div id="conten-general">
-    <h1 id="titulo"> Usuarios</h1>    
-<div id="conten-usuarios">
+<div class="conten-general">
+    <h1 class="titulo"> Usuarios</h1>    
+<div class="conten-usuarios">
         <?php
          ?>
         <table class="usuarios">

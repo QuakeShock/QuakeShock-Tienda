@@ -1,0 +1,50 @@
+.conten-favorito{
+    width: 700px;
+    height: 120px;
+    float: left;
+    margin-left: 250px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.45);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.45);
+}
+
+
+.favorito-imagen{
+    width: 100px;
+    height: 100px;
+    float: left;
+    border: 1px solid lightgray;
+}
+.conten-favorito-img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.conten-favorito-info{
+    width: 170px;
+    height: 80px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: left;
+}
+.conten-favorito-precio{
+    background-color: #f4f4f4;
+    width: 170px;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 15px;
+    float: left;
+}
+.conten-favorito-gestion{
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+}

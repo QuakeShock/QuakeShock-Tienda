@@ -1,218 +1,168 @@
-.titles{
-    font-size: 28px;
-    font-family: tahoma;
-    margin: auto;
-    text-align: center;
-    margin-left: 700px;
-
-}
-.texts{
-    font-family: tahoma;
-}
-#title-container{
-    margin: auto;
-    margin-top: -1100px;
-    border: 1px solid red;
-}
-#pedido-container{
-    width: 80%;
-    height: 800px;
-    border-radius: 20px;
-    background-color: white;
-    border: 1px solid red;
-    margin: auto;
-    margin-top: 00px;
-}
-#pedido-container-in{
-    width: 80%;
-    height: 80%;
-    background-color: white;
-    border: 1px solid red;
-    margin: auto;
-    margin-top: 30px;
-}
-
-.producto-pedido-container{
-    width: 80%;
-    height: 100px;
-    border: 1px solid black;
-    border-radius: 30px;
-    margin: auto;
-    margin-top: 20px;
-}
-.producto-pedido-container-in{
-    width: 90%;
-    height: 100px;
-    border: 1px solid red;
-    margin: auto;
-}
-.producto-pedido-up{
-    width: 100%;
-    height: 30px;
-    border: 1px solid blue;
-    margin: auto;
-}
-.producto-pedido-title{
+.conten-metodo-despacho{
+    width: 1000px;
+    height: 220px;
     float: left;
-    font-family: tahoma;
-}
-producto-pedido-cod{
-    font-family: tahoma;
-}
-.producto-pedido-down{
-    width: 100%;
-    height: 30px;
-    border: 1px solid blue;
-    margin: auto;
-    margin-top:20px;
-}
-.producto-pedido-cantidad{
-    float: left;
-    margin-right: 20px;
-}
-.producto-pedido-cantidad-text{
-    font-family: tahoma;
-}
-
-.producto-pedido-comentario{
-    float: left;
-}
-.producto-pedido-comentario-text{
-    font-family: tahoma;
-}
-.producto-pedido-precio{
-    float: right;
-    margin-right: 10px;
-}
-#total-container{
-    width: 80%;
-    height:100px;
-    border: 1px solid blue;
-    margin: auto;
     
+    margin-top: 20px;
+    margin-left: 100px;
+    text-align: left;
+    border: 0px solid red;
 }
-#total-container-in{
-    width: 90%;
-    height:80px;
-    border: 1px solid red;
-    margin: auto;
+.conten-metodo-pago{
+    width: 1000px;
+    height: 100px;
+    float: left;
+    
+    margin-top: 20px;
+    margin-left: 100px;
+    text-align: left;
+    border: 0px solid red; 
 }
-#total-container-text{
-    width: 200px;
-    height: 30px;
-    border: 1px solid cyan;
+.conten-acuerdo{
+    width: 1000px;
+    height:200px;
     float: left;
     margin-top: 20px;
     margin-left: 100px;
+    text-align: left;
+    border: 0px solid red; 
 }
-#total-text{
-    font-family: tahoma;
+.cb-acuerdo{
+     margin-left: 250px;
 }
-#total-container-precio{
-    width: 200px;
+.conten-comentarios{
+    width: 600px;
+    border: 0px solid red;
+    margin-left: 0px;
+    margin: auto;
+}
+.txtComentario{
+    width: 500px;
     height: 30px;
-    border: 1px solid cyan;
+    font-family: calibri;
+    font-size: 20px;
+    color: gray;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    outline: none;
+}
+.lbl-acuerdo{
+    font-family: calibri;
+    font-size: 20px;
+    color: gray;
+    margin-left: 10px;
+}
+#domicilio{
+    margin-right: 10px;
+}
+#metro{
+    margin-left: 270px;
+}
+.txtDireccion{
+  width: 280px;
+  height: 30px;
+  font-family: Calibri;
+  font-size: 20px;
+  color: #666666;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+  float: left;
+  margin-top: 2px;
+}
+.tyc-envios{
+    text-decoration: underline;
+    float: left;
+    font-family: calibri;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: -280px;
+    cursor: pointer;
+    color: #008065;
+}
+
+.tyc-metros{
+    text-decoration: underline;
     float: right;
+    font-family: calibri;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: -280px;
+    cursor: pointer;
+    color: #008065;
+}
+
+
+.conten-info-completado{
+    width: 800px;
+    height: 70px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px
+}
+.conten-info-completado.detalles{
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+.conten-pagar-pedido{
+    width: 1000px;
+    height: 200px;
+    float: left;
+    margin-left: 100px;
+    text-align: left;
+    align-content: center;
+    margin-top: 0px;
+}
+
+.conten-mis-pedidos-pedido{
+    width: 1000px;
+    height: 100px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.45);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.45);
+}
+
+.conten-mis-pedidos-left{
+    width: 200px;
+    text-align: left;
+    float: left;
+    margin-left: 40px;
     margin-top: 20px;
 }
-#total-text-precio{
-    font-family: tahoma;
-}
-#despacho-container{
-    width: 80%;
-    height:200px;
-    border: 1px solid red;
-    margin: auto;
-}
-#despacho-container-in{
-    width: 100%;
-    height:200px;
-    border: 1px solid red;
-    margin: auto;
-}
-#metodo-despacho-text-container{
-    width: 100%;
-    height:40px;
-    border: 1px solid red;
-    margin: auto;
-}
-#metodo-despacho-text{
-    font-family: tahoma;
-    font-size: 28px;
-}
-#seleccion-despacho-container{
-    width: 100%;
-    height:30px;
-    border: 1px solid blue;
-    margin: auto;
-}
-#despacho-domicilio-radio-container{
-    float: left;
-    
 
-}
-#despacho-estaciones-radio-container{
-    float: right;
-    margin-right: 170px;
-}
-#seleccion-direccion-container{
-    width: 200px;
-    height: 80px;
-    border: 1px solid cyan;
-}
-#select-direccion{
-    width: 200px;
-    height: 30px;
-}
-#tyc-estaciones-container{
-    width: 350px;
-    float: right;
-    border: 1px solid blue;
-}
-#tyc-estaciones{
-    color: #008065;
-    font-family: tahoma;
-}
-#tyc-domicilio-container{
-    width: 350px;
-    float: left;
-    border: 1px solid blue;
-}
-#tyc-domicilio{
-    color: #008065;
-    font-family: tahoma;
-}
-#pago-container{
-    width: 80%;
-    height:80px;
-    border: 1px solid red;
-    margin: auto;
-}
-#metodo-pago-text-container{
-    width: 100%;
-    height:40px;
-    border: 1px solid red;
-    margin: auto;
-}
-#metodo-pago-text{
-    font-family: tahoma;
-    font-size: 28px;
-}
-#tyc-acorde-container{
-    width: 40%;
-    height:40px;
-    border: 1px solid red;
-    margin: auto;
-}
-#tyc-acorde-check{
+.conten-mis-pedidos-left.coste{
+    background-color: #f4f4f4;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
     
 }
-#tyc-acorde-text{
-    font-family: tahoma;
+.conten-mis-pedidos-right{
+    width: 300px;
+    text-align: left;
+    float: right;
+    margin-top: 10px;
 }
-#pedido-buttons-container{
-    width: 32%;
-    height: 50px;
-    margin: auto;
-    border: 1px solid red;
+.conten-img-productos{
+    text-align: left;
+    float: left;
+    margin-top: 30px;
+    border: 1px solid lightgray;
+}
+.imagen-mis-pedidos{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 5px;
 }

@@ -3,14 +3,14 @@
     height: 200px;
     border: 2px solid lightgray;
     background-color: #EEEEEE;
-    position: relative;
+    float: left;
 }
 #footer-in{
     width: 80%;
     height: 180px;
     margin: auto;
     border: 1px solid red;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 #logo-footer{
     width: 230px;
@@ -18,12 +18,11 @@
     border: 1px solid cyan;
     background-image: url("../img/qslogo_full.png");
     background-size: 230px;
-    float: left;
     margin-right: 150px;
     margin-top: 15px;
 }
 .footer-text{
-    float: left;
+    
     font-family: Calibri;
     font-size: 18px;
     line-height: 25px;
@@ -36,8 +35,8 @@
     background-color: #FFFFFF;
     margin-top: 0px;
     border-radius: 20px;
-    margin-right: 100px;
-    margin-top: 10px;
+    margin-left: 400px;
+    margin-top: -150px;
 }
 #social-text-container{
     width: 270px;
@@ -45,6 +44,8 @@
     border: 1px solid red;
     margin-top: 20px;
     margin-left: 15px;
+    float: left;
+    
 }
 #fb_icon{
     border: 1px solid red;
@@ -61,12 +62,13 @@
 #envios-box{
     width: 300px;
     height: 150px;
-    float: left;
+    float: right;
     border: 2px solid lightgray;
     background-color: #FFFFFF;
     margin-top: 0px;
     border-radius: 20px;
-    margin-top: 10px;
+    margin-left: 100px;
+    margin-top: -155px;
 }
 #envios-img{
     width: 120px;

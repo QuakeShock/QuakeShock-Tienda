@@ -8,9 +8,9 @@ $telefono = $usuario->TELEFONO;
 $correo = $usuario->CORREO;
 
 ?>
-<div id="conten-general">
-    <h1 id="titulo"> Mi Perfil </h1>
-    <div id="conten-perfil">
+<div class="conten-general">
+    <h1 class="titulo"> Mi Perfil </h1>
+    <div class="conten-bg">
         <div id="conten-datos-perfil">
             <div>
                 <label class="lbl-perfil" > RUT: <?= $rut ?> </label>
@@ -44,8 +44,8 @@ $correo = $usuario->CORREO;
                         <button type="button" name="btnGestionarTyc" class="btn gestionar-tyc" onClick="document.location.href = '' + baseurl + 'admin/gestion-tyc'"><img src="<?= base_url ?>assets/img/icons/tyc.png" id="btn-gestionar-tyc-img" > <label id = "btn-gestionar-tyc-text">Gestionar Terminos y Condiciones</label> </button> 
                 <?php    
                         elseif ($tipo_usuario == "empleado"): ?>
-                            <button type="button" name="btnGestionarProductos" class="btn gestionar-productos" onClick="document.location.href = '' + baseurl + 'empleado/gestion-productos'"><img src="<?= base_url ?>assets/img/icons/product.png" id="btn-gestionar-productos-img" > <label id = "btn-gestionar-productos-text">Gestionar Productos</label> </button>
-                            <button type="button" name="btnGestionarPedidos" class="btn gestionar-pedidos" onClick="document.location.href = '' + baseurl + 'empleado/gestion-pedidos'"><img src="<?= base_url ?>assets/img/icons/order.png" id="btn-gestionar-pedidos-img" > <label id = "btn-gestionar-pedidos-text">Gestionar Pedidos</label> </button>
+                            <button type="button" name="btnGestionarProductos" class="btn gestionar-productos" onClick="document.location.href = '' + baseurl + 'producto/gestion'"><img src="<?= base_url ?>assets/img/icons/product.png" id="btn-gestionar-productos-img" > <label id = "btn-gestionar-productos-text">Gestionar Productos</label> </button>
+                            <button type="button" name="btnGestionarPedidos" class="btn gestionar-pedidos" onClick="document.location.href = '' + baseurl + 'pedido/gestion'"><img src="<?= base_url ?>assets/img/icons/order.png" id="btn-gestionar-pedidos-img" > <label id = "btn-gestionar-pedidos-text">Gestionar Pedidos</label> </button>
                 <?php
                 endif;
             endif;

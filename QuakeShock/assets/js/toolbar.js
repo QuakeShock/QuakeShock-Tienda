@@ -1,13 +1,18 @@
 $(document).ready(function(){
   $("#portada-test1").css('background-image', 'url("img/test3.png")');
-  //ARTISTAS
+  
+  //-----------------------------CATALOGO---------------------------------------
+  
   $('#catalogo-menu').mouseenter(function()
   {
     $('#catalogo-menu').css("background-color", "#39A484");
+    $('#catalogo-menu').css("margin-top", "-10px");
+    $('#catalogo-menu').css("height", "60px");
   });
   $('#catalogo-menu').mouseleave(function()
   {
-
+    $('#catalogo-menu').css("margin-top", "0px");
+    $('#catalogo-menu').css("height", "50px");
     $('#catalogo-menu').css("background-color", "#018059");
   });
 
@@ -16,35 +21,65 @@ $(document).ready(function(){
     $('#catalogo-menu').css("background-color", "#00FF84");
   });
 
-  //TRACKS
-  $('#tracks').mouseenter(function()
+  //---------------------------CATEGORIAS---------------------------------------
+  
+  $('#categorias-menu').mouseenter(function()
   {
-    $('#tracks').css("background-color", "#39A484");
+    $('#categorias-menu').css("background-color", "#39A484");
+    $('#categorias-menu').css("margin-top", "-10px");
+    $('#categorias-menu').css("height", "60px");
   });
-  $('#tracks').mouseleave(function()
+  $('#categorias-menu').mouseleave(function()
   {
-
-    $('#tracks').css("background-color", "inherit");
-  });
-
-  $('#tracks').click(function()
-  {
-    $('#tracks').css("background-color", "#00FF84");
-  });
-
-  //CONTACTO
-  $('#contacto').mouseenter(function()
-  {
-    $('#contacto').css("background-color", "#39A484");
-  });
-  $('#contacto').mouseleave(function()
-  {
-
-    $('#contacto').css("background-color", "inherit");
+    $('#categorias-menu').css("margin-top", "0px");
+    $('#categorias-menu').css("height", "50px");
+    $('#categorias-menu').css("background-color", "#018059");
   });
 
-  $('#contacto').click(function()
+  $('#categorias-menu').click(function()
   {
-    $('#contacto').css("background-color", "#00FF84");
+    $('#categorias-menu').css("background-color", "#00FF84");
   });
+
+  //------------------------------CONTACTO--------------------------------------
+  
+  $('#contacto-menu').mouseenter(function()
+  {
+    $('#contacto-menu').css("background-color", "#39A484");
+    $('#contacto-menu').css("margin-top", "-10px");
+    $('#contacto-menu').css("height", "60px");
+  });
+  $('#contacto-menu').mouseleave(function()
+  {
+    $('#contacto-menu').css("margin-top", "0px");
+    $('#contacto-menu').css("height", "50px");
+    $('#contacto-menu').css("background-color", "#018059");
+  });
+
+  $('#contacto-menu').click(function()
+  {
+    $('#contacto-menu').css("background-color", "#00FF84");
+  });
+
+  //------------------------------TERMINOS Y CONDICIONES--------------------------------------
+  
+  $('#tyc-menu').mouseenter(function()
+  {
+    $('#tyc-menu').css("background-color", "#39A484");
+    $('#tyc-menu').css("margin-top", "-10px");
+    $('#tyc-menu').css("height", "60px");
+  });
+  $('#tyc-menu').mouseleave(function()
+  {
+    $('#tyc-menu').css("margin-top", "0px");
+    $('#tyc-menu').css("height", "50px");
+    $('#tyc-menu').css("background-color", "#018059");
+  });
+
+  $('#tyc-menu').click(function()
+  {
+    $('#tyc-menu').css("background-color", "#00FF84");
+  });
+  
 });
+

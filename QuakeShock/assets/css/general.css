@@ -1,0 +1,184 @@
+/*--------------- ESTILO GENERAL -----------*/
+h1{
+    font-family: exo-regular;
+}
+a{
+    text-decoration: none;
+}
+.titulo{
+    font-family: exo-regular;
+    color: #19956F;
+}
+.subtitulo{
+    font-family: exo-regular;
+    color: #19956F;
+    font-size: 20px;
+}
+.texto-grande{
+  font-family: Calibri;
+  font-size: 25px;
+  color: #666666;
+  margin-top: 8px;
+}
+.texto-chico{
+  font-family: Calibri;
+  font-size: 20px;
+  color: #666666;
+}
+.texto-diminuto{
+  font-family: Calibri;
+  font-size: 15px;
+  color: #666666;
+}
+.conten-texto {
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+}
+.conten-texto.small{
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+}
+.conten-general{
+    width: 100%;
+    height: 100%;
+    margin-top: -25px;
+    border: 1px solid blue;
+}
+.conten-general.catalogo{
+    height: 100%;
+}
+.conten-bg{
+    width: 1215px;
+    height: 100%;
+    border: 0px solid black;
+    background-color: #fff;
+    border-radius: 10px;
+    
+    margin: auto;
+   
+}
+.conten-tabla{
+    height: 100%;
+}
+.conten-btn-gestion{
+    border: 1px solid blue;
+    margin-top: 20px;
+}
+
+.darkbox{
+    width: 100%;
+    height: 1300px;
+    opacity: 0;
+    position: absolute;
+    top: 1px;
+    visibility: hidden;
+    background-color: black;
+    transition-duration: 0.5s;
+}
+.cerrar{
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-top: 0px;
+    margin-right: 0px;
+    border-radius: 0px 10px 0px 10px;
+}
+.cerrar:hover{
+    -webkit-box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
+-moz-box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
+box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
+
+  transition: 0.2s;
+}
+.cerrar:active{
+    width: 60px;
+    height: 60px;
+}
+.lightbox-msg{
+    width: 600px;
+    height: 150px;
+    background-color: white;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    margin-top: 80px;
+    left: 460px;
+    transition: 1s;
+    border-radius: 50px;
+}
+.conten-msg{
+    margin: auto;
+    width: 450px;
+    height: 100px;
+    border: 1px solid blue;
+    margin-top: 20px;
+}
+.x-msg{
+    text-align: center;
+    font-family: exo;
+    font-size: 30px;
+    
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #CDCDCD;
+  opacity: 1; /* Firefox */
+}
+
+.conten-form{
+    width: 500px;
+    border: 1px solid cyan;
+    height: 100%;
+    margin: auto;
+}
+.formulario{
+    height: 80%;
+    border: 0px solid blue;
+}
+
+.conten-btn-form{
+  width: 500px;
+  height: 70px;
+  border: 0px solid red;
+}
+.btn-form{
+  width: 180px;
+  height: 60px;
+  font-family: Calibri;
+  font-size: 25px;
+  float: right;
+  margin-right: 0px;
+  margin-top: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid GRAY;
+  background-color: white;
+  color: #008065;
+}
+.btn-form:hover{
+  color: #02130D;
+-webkit-box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
+-moz-box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
+box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.45);
+
+  transition: 0.2s
+}
+.btn-form.eliminarCat{
+    width: 200px;
+}
+
+@font-face {
+    font-family: "exo-regular";
+    src: url("fonts/Exo-Regular.otf");
+}
+@font-face {
+    font-family: "agero";
+    src: url("fonts/agero.ttf");
+}
+@font-face {
+    font-family: "Ceria Lebaran";
+    src: url("css/fonts/Ceria Lebaran.otf");
+}

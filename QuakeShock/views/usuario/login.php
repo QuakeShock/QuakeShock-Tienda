@@ -53,6 +53,7 @@ if (isset($_SESSION['resultado_login'])) {
 
 ?>
 <div class="lightbox-login">
+    <img src="<?=base_url?>assets/img/icons/x.png" onclick='cerrarTodo()' class='cerrar'>
     <div class="conten-login-text">
         <h2 class="login-text">Ingresa tus datos</h2>
     </div>

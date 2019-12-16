@@ -63,6 +63,8 @@ class UsuarioController {
            header("Location:" . base_url . 'inicio/qs');
         }
     }
+    
+    
 
 }
 

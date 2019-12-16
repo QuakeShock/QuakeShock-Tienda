@@ -129,18 +129,7 @@ class Usuario {
     //Metodos Cliente
 
     public function save() {
-        $query = "INSERT INTO usuario VALUES (NULL, '{$this->getRut()}', '{$this->getNombre()}', '{$this->getApellidos()}', '{$this->getTelefono()}', '{$this->getCorreo()}', '{$this->getClave()}', '0', '{$this->getTipo()}');";
-        $save = $this->db->query($query);
-        $result = false;
-        if ($save) {
-            $result = true;
-        }
-        return $result;
-    }
-
-    //Metodos Empleado
-    public function saveEmpleado() {
-        $query = "INSERT INTO usuario VALUES (NULL, '{$this->getRut()}', '{$this->getNombre()}', '{$this->getApellidos()}', '{$this->getTelefono()}', '{$this->getCorreo()}', '{$this->getClave()}', '0');";
+        $query = "INSERT INTO usuario VALUES (NULL, '{$this->getRut()}', '{$this->getNombre()}', '{$this->getApellidos()}', '{$this->getTelefono()}', '{$this->getCorreo()}', '{$this->getClave()}', '0', '{$this->getTipo()}', '1');";
         $save = $this->db->query($query);
         $result = false;
         if ($save) {

@@ -1,0 +1,161 @@
+
+.lightbox-crear-producto{
+  width: 600px;
+  height: 800px;
+  background-color: white;
+  top: 30px;
+  left: 460px;
+  border-radius: 20px;
+  transition: 1s;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  margin-top: 90px;
+}
+.lightbox-eliminar-producto{
+  width: 600px;
+  height: 250px;
+  background-color: white;
+  top: 30px;
+  left: 460px;
+  border-radius: 20px;
+  transition: 1s;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  margin-top: 90px;
+}
+.lightbox-modificar-producto{
+  width: 600px;
+  height: 250px;
+  background-color: white;
+  top: 30px;
+  left: 460px;
+  border-radius: 20px;
+  transition: 1s;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  margin-top: 90px;
+}
+.conten-producto-input{
+    width: 500px;
+    height: 40px;
+    border: 0px solid gray;
+    float: left;
+    margin-top: 5px;
+}
+
+.txtProducto{
+  width: 350px;
+  height: 30px;
+  font-family: Calibri;
+  font-size: 20px;
+  color: #666666;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+  float: right;
+  margin-top: 2px;
+}
+.txtProducto.small{
+  width: 150px;
+  height: 30px;
+  font-family: Calibri;
+  font-size: 20px;
+  color: #666666;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+  float: right;
+  margin-top: 2px;
+  margin-right: 200px;
+}
+.txtProducto.small.eli-modi-bus{
+    float: left;
+    margin-top: -25px;
+    margin-left: 300px;
+}
+
+.txtProducto.textarea{
+  width: 500px;
+  height: 200px;
+  font-family: Calibri;
+  font-size: 20px;
+  color: #666666;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+  float: right;
+  margin-top: 2px;
+}
+
+.conten-producto-input.textarea{
+    width: 500px;
+    height: 200px;
+    
+    float: left;
+    margin-top: 5px;
+}
+.conten-producto-input.img{
+    width: 500px;
+    height: 35px;
+    
+    float: left;
+    margin-top: 0px;
+}
+.lbl-producto{
+  font-family: Calibri;
+  font-size: 25px;
+  color: #666666;
+  margin-top: -2px;
+  float: left;
+}
+.lbl-file{
+    font-family: calibri;
+    font-size: 20px;
+    color: #666666;
+}
+
+.img-producto{
+    color: #018059;
+    font-family: exo;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.lightbox-crear-categoria{
+  width: 600px;
+  height: 250px;
+  background-color: white;
+  top: 30px;
+  left: 460px;
+  border-radius: 20px;
+  transition: 1s;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  margin-top: 90px;
+}
+
+.lightbox-eliminar-categoria{
+  width: 600px;
+  height: 250px;
+  background-color: white;
+  top: 30px;
+  left: 460px;
+  border-radius: 20px;
+  transition: 1s;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  margin-top: 90px;
+}
+
+#editArea{
+    width: 500px;
+    height: 100px;
+    font-family: calibri;
+}
+
