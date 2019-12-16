@@ -57,6 +57,28 @@ $(".ya-registrado-link").click(function () {
     ocultarRegistro();
 });
 
+//-----------------------------------------------------------GESTIÓN DE PERFIL--------------------------------------------------------------------------------
+//-----------------------------------------------------------GESTIÓN DE PERFIL--------------------------------------------------------------------------------
+//-----------------------------------------------------------GESTIÓN DE PERFIL--------------------------------------------------------------------------------
+
+//-----------------------------------------------------------LIGHTBOX MODIFICAR PERFIL
+
+$('.btn.modificar-perfil').click(function () {
+    //Al dar click al boton de crear usuario dentro del panel de gestion de usuarios de administrador.
+    //Muestra la caja negra, muestra la venta de crear usuario y oculta la posible venta de eliminar usuario, modificar usuario y buscar usuario.
+    //
+    verDarkbox();
+    
+ 
+    //ocultarRecuperarClave();
+
+    //ocultarGestionarDir();
+    
+    verModificarPerfil();
+    
+    $("html, body").animate({scrollTop: 0}, 800);
+});
+
 //-----------------------------------------------------------GESTIÓN DE USUARIOS--------------------------------------------------------------------------------
 //-----------------------------------------------------------GESTIÓN DE USUARIOS--------------------------------------------------------------------------------
 //-----------------------------------------------------------GESTIÓN DE USUARIOS--------------------------------------------------------------------------------

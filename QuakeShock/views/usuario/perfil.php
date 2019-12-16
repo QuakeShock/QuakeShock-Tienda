@@ -51,7 +51,7 @@ $correo = $usuario->CORREO;
             endif;
             ?>
 
-            <button type="button" name="btnModificarPerfil" class="btn modificar-perfil" onClick="document.location.href = '' + baseurl + 'usuario/modificar-perfil'"><img src="<?= base_url ?>assets/img/icons/edit.png" id="btn-modificar-perfil-img" > <label id = "btn-modificar-perfil-text">Modificar Perfil</label> </button>
+            <button type="button" name="btnModificarPerfil" class="btn modificar-perfil"><img src="<?= base_url ?>assets/img/icons/edit.png" id="btn-modificar-perfil-img" > <label id = "btn-modificar-perfil-text">Modificar Perfil</label> </button>
             <button type="button" name="btnRecuperarClave" class="btn recuperar-clave" onClick="document.location.href = '' + baseurl + 'usuario/recuperar-clave'"><img src="<?= base_url ?>assets/img/icons/unlock.png" id="btn-recuperar-clave-img" > <label id = "btn-recuperar-clave-text">Recuperar Clave</label> </button>
             <button type="button" name="btnLogout" class="btn logout" onClick="document.location.href = '' + baseurl + 'usuario/logout'"><img src="<?= base_url ?>assets/img/icons/logout.png" id="btn-logout-img" > <label id = "btn-logout-text">Cerrar sesión</label> </button>
         </div>

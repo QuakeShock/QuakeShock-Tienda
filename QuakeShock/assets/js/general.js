@@ -101,6 +101,25 @@ function ocultarRegistro() {
     }, 200);
 }
 
+//--------------------------------LIGHTBOX MODIFICAR PERFIL-------------------------------
+
+function verModificarPerfil(){
+    $(".lightbox-modificar-perfil").css("visibility", "visible");
+    $(".lightbox-modificar-perfil").css("opacity", "1");
+    $(".lightbox-modificar-perfil").animate({
+        top: "40",
+    }, 200);
+}
+
+function ocultarModificarPerfil() {
+
+    $(".lightbox-modificar-perfil").css("visibility", "hidden");
+    $(".lightbox-modificar-perfil").css("opacity", "0");
+    $(".lightbox-modificar-perfil").animate({
+        top: "+=100px",
+    }, 200);
+}
+
 //--------------------------------LIGHTBOX CREAR USUARIO-------------------------------
 
 function verCrearUsu(){

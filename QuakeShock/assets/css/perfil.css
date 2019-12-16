@@ -40,3 +40,19 @@
   margin-left: 260px;
   margin-top: -10px;
 }
+
+
+
+.lightbox-modificar-perfil{
+  width: 600px;
+  height: 800px;
+  background-color: white;
+  top: 30px;
+  left: 460px;
+  border-radius: 20px;
+  transition: 1s;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  margin-top: 90px;
+}
